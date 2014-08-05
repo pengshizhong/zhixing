@@ -8,11 +8,17 @@ class LoginController extends Controller {
     $this->display();
     }
     public function yanzheng(){
-    	if(I('get.password')=='123456')
-    	{
-    		session_start();
+        session_start();
+        if($_COOKIE['token']==$_SESSION['token'])
+            echo "两个token相同";
+        echo $_COOKIE['token'];
+            echo $_SESSION['token'];
+    
     		
-    	}
+    		// $token=md5(date("Y m d h i s"));
+      //       $_SESSION['token']=$token;
+      //       setcookie('token',$token);
+    	
     }
 
 }
