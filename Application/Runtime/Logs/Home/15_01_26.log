@@ -1,0 +1,41 @@
+[ 2015-01-26T23:37:24+08:00 ] 127.0.0.1 /scaupsz/7/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000072s ]
+INFO: [ app_init ] --END-- [ RunTime:0.009105s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008430s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008631s ]
+NOTIC: [2] mysql_connect():  C:\wamp\www\scaupsz\7\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php Á¨¨ 52 Ë°å.
+ERR: ”…”⁄¡¨Ω”∑Ω‘⁄“ª∂Œ ±º‰∫Û√ª”–’˝»∑¥∏¥ªÚ¡¨Ω”µƒ÷˜ª˙√ª”–∑¥”¶£¨¡¨Ω”≥¢ ‘ ß∞‹°£
+
+
+[ 2015-01-26T23:37:41+08:00 ] 127.0.0.1 /scaupsz/7/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000688s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001163s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001396s ]
+NOTIC: [2] mysql_connect():  C:\wamp\www\scaupsz\7\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php Á¨¨ 52 Ë°å.
+ERR: ”…”⁄¡¨Ω”∑Ω‘⁄“ª∂Œ ±º‰∫Û√ª”–’˝»∑¥∏¥ªÚ¡¨Ω”µƒ÷˜ª˙√ª”–∑¥”¶£¨¡¨Ω”≥¢ ‘ ß∞‹°£
+
+
+[ 2015-01-26T23:37:54+08:00 ] 127.0.0.1 /scaupsz/7/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001018s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002099s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002269s ]
+NOTIC: [2] mysql_connect():  C:\wamp\www\scaupsz\7\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php Á¨¨ 52 Ë°å.
+ERR: ”…”⁄¡¨Ω”∑Ω‘⁄“ª∂Œ ±º‰∫Û√ª”–’˝»∑¥∏¥ªÚ¡¨Ω”µƒ÷˜ª˙√ª”–∑¥”¶£¨¡¨Ω”≥¢ ‘ ß∞‹°£
+
+
+[ 2015-01-26T23:40:15+08:00 ] 127.0.0.1 /scaupsz/7/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000642s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001422s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001531s ]
+

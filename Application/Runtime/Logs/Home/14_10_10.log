@@ -1,0 +1,1443 @@
+[ 2014-10-10T09:19:24+08:00 ] 127.0.0.1 /zhixing/index.php/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.022584s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.012397s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.012651s ]
+SQL: SHOW COLUMNS FROM `zx_article` [ RunTime:0.451378s ]
+SQL: SHOW COLUMNS FROM `zx_slide_show` [ RunTime:0.001583s ]
+ERR: 1146:Table 'zhixing.zx_slide_show' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `zx_slide_show`
+SQL: SHOW COLUMNS FROM `zx_type` [ RunTime:0.120122s ]
+SQL: SELECT * FROM zx_type WHERE parent='招聘信息' [ RunTime:0.059131s ]
+SQL: SELECT * FROM zx_article WHERE  type='招聘信息'  OR type='招聘测试1' OR type='大大声' AND status_0=1 ORDER BY id DESC LIMIT 0,6 [ RunTime:0.026894s ]
+SQL: SHOW COLUMNS FROM `zx_type` [ RunTime:0.001932s ]
+SQL: SELECT * FROM zx_type WHERE parent='活动动态' [ RunTime:0.000336s ]
+SQL: SELECT * FROM zx_article WHERE  type='活动动态'  OR type='sdafdsfsdsada' AND status_0=1 ORDER BY id DESC LIMIT 0,6 [ RunTime:0.000671s ]
+SQL: SHOW COLUMNS FROM `zx_type` [ RunTime:0.002390s ]
+SQL: SELECT * FROM zx_type WHERE parent='知行干货' [ RunTime:0.000290s ]
+SQL: SELECT * FROM zx_article WHERE  type='知行干货'  OR type='ganhuo1' AND status_0=1 ORDER BY id DESC LIMIT 0,7 [ RunTime:0.000329s ]
+SQL: SELECT * FROM zx_slideshow WHERE sort!=0 ORDER BY sort [ RunTime:0.086848s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000090s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000188s ]
+NOTIC: [8] Undefined variable: allCss C:\wamp\www\zhixing\Application\Runtime\Cache\Home\7b77775f00e57a9d8807c87feb3333f0.php 第 7 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp\www\zhixing\Application\Runtime\Cache\Home\7b77775f00e57a9d8807c87feb3333f0.php 第 7 行.
+NOTIC: [8] Undefined variable: allJs C:\wamp\www\zhixing\Application\Runtime\Cache\Home\7b77775f00e57a9d8807c87feb3333f0.php 第 12 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp\www\zhixing\Application\Runtime\Cache\Home\7b77775f00e57a9d8807c87feb3333f0.php 第 12 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.186733s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.186836s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.060567s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.060767s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.036003s ]
+INFO: [ app_end ] --END-- [ RunTime:0.036123s ]
+
+[ 2014-10-10T09:19:27+08:00 ] 127.0.0.1 /zhixing/index.php/Home/Article/index/type/%E6%8B%9B%E8%81%98%E4%BF%A1%E6%81%AF.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000690s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000712s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000838s ]
+SQL: SHOW COLUMNS FROM `zx_article` [ RunTime:0.002322s ]
+SQL: SHOW COLUMNS FROM `zx_type` [ RunTime:0.002314s ]
+SQL: SELECT * FROM zx_type WHERE parent='招聘信息' [ RunTime:0.000314s ]
+SQL: SELECT * FROM zx_type WHERE name='招聘信息' [ RunTime:0.012973s ]
+NOTIC: [8] Array to string conversion C:\wamp\www\zhixing\Application\Home\Controller\ArticleController.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `zx_article` [ RunTime:0.001756s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zx_article` WHERE ( type='Array' AND status_0=1 ) LIMIT 1   [ RunTime:0.049452s ]
+SQL: SELECT * FROM `zx_article` WHERE ( type='Array' AND status_0=1 ) ORDER BY id DESC LIMIT 0,8   [ RunTime:0.000658s ]
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp\www\zhixing\Application\Home\Controller\ArticleController.class.php 第 19 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000074s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000174s ]
+NOTIC: [8] Undefined variable: allCss C:\wamp\www\zhixing\Application\Runtime\Cache\Home\898face22148efbe3b0369620bf59ccd.php 第 8 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp\www\zhixing\Application\Runtime\Cache\Home\898face22148efbe3b0369620bf59ccd.php 第 8 行.
+NOTIC: [8] Undefined variable: allJs C:\wamp\www\zhixing\Application\Runtime\Cache\Home\898face22148efbe3b0369620bf59ccd.php 第 13 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp\www\zhixing\Application\Runtime\Cache\Home\898face22148efbe3b0369620bf59ccd.php 第 13 行.
+NOTIC: [8] Undefined variable: download C:\wamp\www\zhixing\Application\Runtime\Cache\Home\898face22148efbe3b0369620bf59ccd.php 第 46 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp\www\zhixing\Application\Runtime\Cache\Home\898face22148efbe3b0369620bf59ccd.php 第 54 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017470s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017623s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000344s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000421s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000735s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000849s ]
+
+[ 2014-10-10T09:19:28+08:00 ] 127.0.0.1 /zhixing/index.php/Home/Article/index/type/%E6%8B%9B%E8%81%98%E6%B5%8B%E8%AF%951.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000399s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000614s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000754s ]
+SQL: SHOW COLUMNS FROM `zx_article` [ RunTime:0.001775s ]
+SQL: SHOW COLUMNS FROM `zx_type` [ RunTime:0.001570s ]
+SQL: SELECT * FROM zx_type WHERE parent='招聘测试1' [ RunTime:0.000409s ]
+SQL: SELECT * FROM zx_type WHERE name='招聘测试1' [ RunTime:0.000197s ]
+SQL: SHOW COLUMNS FROM `zx_article` [ RunTime:0.001765s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zx_article` WHERE ( type='招聘测试1' AND status_0=1 ) LIMIT 1   [ RunTime:0.000267s ]
+SQL: SELECT * FROM `zx_article` WHERE ( type='招聘测试1' AND status_0=1 ) ORDER BY id DESC LIMIT 0,8   [ RunTime:0.001017s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000075s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000177s ]
+NOTIC: [8] Undefined variable: allCss C:\wamp\www\zhixing\Application\Runtime\Cache\Home\898face22148efbe3b0369620bf59ccd.php 第 8 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp\www\zhixing\Application\Runtime\Cache\Home\898face22148efbe3b0369620bf59ccd.php 第 8 行.
+NOTIC: [8] Undefined variable: allJs C:\wamp\www\zhixing\Application\Runtime\Cache\Home\898face22148efbe3b0369620bf59ccd.php 第 13 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp\www\zhixing\Application\Runtime\Cache\Home\898face22148efbe3b0369620bf59ccd.php 第 13 行.
+NOTIC: [8] Undefined variable: download C:\wamp\www\zhixing\Application\Runtime\Cache\Home\898face22148efbe3b0369620bf59ccd.php 第 46 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008920s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009014s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000235s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000312s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000497s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000578s ]
+
+[ 2014-10-10T09:19:35+08:00 ] 127.0.0.1 /zhixing/index.php/Home/Article/index/type/%E6%8B%9B%E8%81%98%E4%BF%A1%E6%81%AF.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000454s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000614s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000721s ]
+SQL: SHOW COLUMNS FROM `zx_article` [ RunTime:0.001912s ]
+SQL: SHOW COLUMNS FROM `zx_type` [ RunTime:0.001743s ]
+SQL: SELECT * FROM zx_type WHERE parent='招聘信息' [ RunTime:0.000334s ]
+SQL: SELECT * FROM zx_type WHERE name='招聘信息' [ RunTime:0.000250s ]
+NOTIC: [8] Array to string conversion C:\wamp\www\zhixing\Application\Home\Controller\ArticleController.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `zx_article` [ RunTime:0.001772s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zx_article` WHERE ( type='Array' AND status_0=1 ) LIMIT 1   [ RunTime:0.000308s ]
+SQL: SELECT * FROM `zx_article` WHERE ( type='Array' AND status_0=1 ) ORDER BY id DESC LIMIT 0,8   [ RunTime:0.000523s ]
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp\www\zhixing\Application\Home\Controller\ArticleController.class.php 第 19 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000172s ]
+NOTIC: [8] Undefined variable: allCss C:\wamp\www\zhixing\Application\Runtime\Cache\Home\898face22148efbe3b0369620bf59ccd.php 第 8 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp\www\zhixing\Application\Runtime\Cache\Home\898face22148efbe3b0369620bf59ccd.php 第 8 行.
+NOTIC: [8] Undefined variable: allJs C:\wamp\www\zhixing\Application\Runtime\Cache\Home\898face22148efbe3b0369620bf59ccd.php 第 13 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp\www\zhixing\Application\Runtime\Cache\Home\898face22148efbe3b0369620bf59ccd.php 第 13 行.
+NOTIC: [8] Undefined variable: download C:\wamp\www\zhixing\Application\Runtime\Cache\Home\898face22148efbe3b0369620bf59ccd.php 第 46 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp\www\zhixing\Application\Runtime\Cache\Home\898face22148efbe3b0369620bf59ccd.php 第 54 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008629s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008713s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000213s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000286s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000475s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000552s ]
+
+[ 2014-10-10T09:19:36+08:00 ] 127.0.0.1 /zhixing/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000411s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000732s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000868s ]
+SQL: SHOW COLUMNS FROM `zx_article` [ RunTime:0.001774s ]
+SQL: SHOW COLUMNS FROM `zx_slide_show` [ RunTime:0.001386s ]
+ERR: 1146:Table 'zhixing.zx_slide_show' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `zx_slide_show`
+SQL: SHOW COLUMNS FROM `zx_type` [ RunTime:0.001448s ]
+SQL: SELECT * FROM zx_type WHERE parent='招聘信息' [ RunTime:0.000257s ]
+SQL: SELECT * FROM zx_article WHERE  type='招聘信息'  OR type='招聘测试1' OR type='大大声' AND status_0=1 ORDER BY id DESC LIMIT 0,6 [ RunTime:0.000286s ]
+SQL: SHOW COLUMNS FROM `zx_type` [ RunTime:0.002633s ]
+SQL: SELECT * FROM zx_type WHERE parent='活动动态' [ RunTime:0.000419s ]
+SQL: SELECT * FROM zx_article WHERE  type='活动动态'  OR type='sdafdsfsdsada' AND status_0=1 ORDER BY id DESC LIMIT 0,6 [ RunTime:0.000388s ]
+SQL: SHOW COLUMNS FROM `zx_type` [ RunTime:0.001554s ]
+SQL: SELECT * FROM zx_type WHERE parent='知行干货' [ RunTime:0.000232s ]
+SQL: SELECT * FROM zx_article WHERE  type='知行干货'  OR type='ganhuo1' AND status_0=1 ORDER BY id DESC LIMIT 0,7 [ RunTime:0.000302s ]
+SQL: SELECT * FROM zx_slideshow WHERE sort!=0 ORDER BY sort [ RunTime:0.000236s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000093s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000197s ]
+NOTIC: [8] Undefined variable: allCss C:\wamp\www\zhixing\Application\Runtime\Cache\Home\7b77775f00e57a9d8807c87feb3333f0.php 第 7 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp\www\zhixing\Application\Runtime\Cache\Home\7b77775f00e57a9d8807c87feb3333f0.php 第 7 行.
+NOTIC: [8] Undefined variable: allJs C:\wamp\www\zhixing\Application\Runtime\Cache\Home\7b77775f00e57a9d8807c87feb3333f0.php 第 12 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp\www\zhixing\Application\Runtime\Cache\Home\7b77775f00e57a9d8807c87feb3333f0.php 第 12 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019770s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019860s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000285s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000363s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000486s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000564s ]
+
+[ 2014-10-10T09:19:48+08:00 ] 127.0.0.1 /zhixing/index.php/Home/Article/article/id/94.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000363s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000859s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001098s ]
+SQL: SHOW COLUMNS FROM `zx_article` [ RunTime:0.001664s ]
+SQL: SHOW COLUMNS FROM `zx_type` [ RunTime:0.001519s ]
+SQL: SELECT * FROM zx_article WHERE id=94 [ RunTime:0.000365s ]
+SQL: SELECT parent FROM zx_type WHERE name='招聘测试1' [ RunTime:0.000214s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000078s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000190s ]
+NOTIC: [8] Undefined variable: allCss C:\wamp\www\zhixing\Application\Runtime\Cache\Home\0dddc1bf07b419a40f4da12a1ece356d.php 第 7 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp\www\zhixing\Application\Runtime\Cache\Home\0dddc1bf07b419a40f4da12a1ece356d.php 第 7 行.
+NOTIC: [8] Undefined variable: allJs C:\wamp\www\zhixing\Application\Runtime\Cache\Home\0dddc1bf07b419a40f4da12a1ece356d.php 第 12 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp\www\zhixing\Application\Runtime\Cache\Home\0dddc1bf07b419a40f4da12a1ece356d.php 第 12 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042438s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042660s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000479s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000676s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000717s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001018s ]
+
+[ 2014-10-10T09:35:05+08:00 ] 127.0.0.1 /zhixing/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000415s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000655s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000741s ]
+SQL: SHOW COLUMNS FROM `zx_article` [ RunTime:0.002654s ]
+SQL: SHOW COLUMNS FROM `zx_slide_show` [ RunTime:0.001575s ]
+ERR: 1146:Table 'zhixing.zx_slide_show' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `zx_slide_show`
+SQL: SHOW COLUMNS FROM `zx_type` [ RunTime:0.001523s ]
+SQL: SELECT * FROM zx_type WHERE parent='招聘信息' [ RunTime:0.000314s ]
+SQL: SELECT * FROM zx_article WHERE  type='招聘信息'  OR type='招聘测试1' OR type='大大声' AND status_0=1 ORDER BY id DESC LIMIT 0,6 [ RunTime:0.000751s ]
+NOTIC: [2] substr() expects parameter 1 to be string, array given C:\wamp\www\zhixing\Application\Home\Model\ArticleModel.class.php 第 51 行.
+NOTIC: [2] substr() expects parameter 1 to be string, array given C:\wamp\www\zhixing\Application\Home\Model\ArticleModel.class.php 第 51 行.
+NOTIC: [2] substr() expects parameter 1 to be string, array given C:\wamp\www\zhixing\Application\Home\Model\ArticleModel.class.php 第 51 行.
+NOTIC: [2] substr() expects parameter 1 to be string, array given C:\wamp\www\zhixing\Application\Home\Model\ArticleModel.class.php 第 51 行.
+NOTIC: [2] substr() expects parameter 1 to be string, array given C:\wamp\www\zhixing\Application\Home\Model\ArticleModel.class.php 第 51 行.
+NOTIC: [2] substr() expects parameter 1 to be string, array given C:\wamp\www\zhixing\Application\Home\Model\ArticleModel.class.php 第 51 行.
+SQL: SHOW COLUMNS FROM `zx_type` [ RunTime:0.001603s ]
+SQL: SELECT * FROM zx_type WHERE parent='活动动态' [ RunTime:0.000235s ]
+SQL: SELECT * FROM zx_article WHERE  type='活动动态'  OR type='sdafdsfsdsada' AND status_0=1 ORDER BY id DESC LIMIT 0,6 [ RunTime:0.000290s ]
+NOTIC: [2] substr() expects parameter 1 to be string, array given C:\wamp\www\zhixing\Application\Home\Model\ArticleModel.class.php 第 51 行.
+NOTIC: [2] substr() expects parameter 1 to be string, array given C:\wamp\www\zhixing\Application\Home\Model\ArticleModel.class.php 第 51 行.
+NOTIC: [2] substr() expects parameter 1 to be string, array given C:\wamp\www\zhixing\Application\Home\Model\ArticleModel.class.php 第 51 行.
+NOTIC: [2] substr() expects parameter 1 to be string, array given C:\wamp\www\zhixing\Application\Home\Model\ArticleModel.class.php 第 51 行.
+NOTIC: [2] substr() expects parameter 1 to be string, array given C:\wamp\www\zhixing\Application\Home\Model\ArticleModel.class.php 第 51 行.
+NOTIC: [2] substr() expects parameter 1 to be string, array given C:\wamp\www\zhixing\Application\Home\Model\ArticleModel.class.php 第 51 行.
+SQL: SHOW COLUMNS FROM `zx_type` [ RunTime:0.001974s ]
+SQL: SELECT * FROM zx_type WHERE parent='知行干货' [ RunTime:0.000253s ]
+SQL: SELECT * FROM zx_article WHERE  type='知行干货'  OR type='ganhuo1' AND status_0=1 ORDER BY id DESC LIMIT 0,7 [ RunTime:0.000287s ]
+NOTIC: [2] substr() expects parameter 1 to be string, array given C:\wamp\www\zhixing\Application\Home\Model\ArticleModel.class.php 第 51 行.
+NOTIC: [2] substr() expects parameter 1 to be string, array given C:\wamp\www\zhixing\Application\Home\Model\ArticleModel.class.php 第 51 行.
+NOTIC: [2] substr() expects parameter 1 to be string, array given C:\wamp\www\zhixing\Application\Home\Model\ArticleModel.class.php 第 51 行.
+NOTIC: [2] substr() expects parameter 1 to be string, array given C:\wamp\www\zhixing\Application\Home\Model\ArticleModel.class.php 第 51 行.
+NOTIC: [2] substr() expects parameter 1 to be string, array given C:\wamp\www\zhixing\Application\Home\Model\ArticleModel.class.php 第 51 行.
+NOTIC: [2] substr() expects parameter 1 to be string, array given C:\wamp\www\zhixing\Application\Home\Model\ArticleModel.class.php 第 51 行.
+NOTIC: [2] substr() expects parameter 1 to be string, array given C:\wamp\www\zhixing\Application\Home\Model\ArticleModel.class.php 第 51 行.
+SQL: SELECT * FROM zx_slideshow WHERE sort!=0 ORDER BY sort [ RunTime:0.000333s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000094s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000196s ]
+NOTIC: [8] Undefined variable: allCss C:\wamp\www\zhixing\Application\Runtime\Cache\Home\7b77775f00e57a9d8807c87feb3333f0.php 第 7 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp\www\zhixing\Application\Runtime\Cache\Home\7b77775f00e57a9d8807c87feb3333f0.php 第 7 行.
+NOTIC: [8] Undefined variable: allJs C:\wamp\www\zhixing\Application\Runtime\Cache\Home\7b77775f00e57a9d8807c87feb3333f0.php 第 12 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp\www\zhixing\Application\Runtime\Cache\Home\7b77775f00e57a9d8807c87feb3333f0.php 第 12 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010463s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010560s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000430s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000513s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000622s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000709s ]
+
+[ 2014-10-10T09:35:34+08:00 ] 127.0.0.1 /zhixing/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000541s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000476s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000557s ]
+SQL: SHOW COLUMNS FROM `zx_article` [ RunTime:0.001740s ]
+SQL: SHOW COLUMNS FROM `zx_slide_show` [ RunTime:0.003304s ]
+ERR: 1146:Table 'zhixing.zx_slide_show' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `zx_slide_show`
+SQL: SHOW COLUMNS FROM `zx_type` [ RunTime:0.001817s ]
+SQL: SELECT * FROM zx_type WHERE parent='招聘信息' [ RunTime:0.000306s ]
+SQL: SELECT * FROM zx_article WHERE  type='招聘信息'  OR type='招聘测试1' OR type='大大声' AND status_0=1 ORDER BY id DESC LIMIT 0,6 [ RunTime:0.000408s ]
+SQL: SHOW COLUMNS FROM `zx_type` [ RunTime:0.001879s ]
+SQL: SELECT * FROM zx_type WHERE parent='活动动态' [ RunTime:0.000262s ]
+SQL: SELECT * FROM zx_article WHERE  type='活动动态'  OR type='sdafdsfsdsada' AND status_0=1 ORDER BY id DESC LIMIT 0,6 [ RunTime:0.000310s ]
+SQL: SHOW COLUMNS FROM `zx_type` [ RunTime:0.001627s ]
+SQL: SELECT * FROM zx_type WHERE parent='知行干货' [ RunTime:0.000246s ]
+SQL: SELECT * FROM zx_article WHERE  type='知行干货'  OR type='ganhuo1' AND status_0=1 ORDER BY id DESC LIMIT 0,7 [ RunTime:0.000699s ]
+SQL: SELECT * FROM zx_slideshow WHERE sort!=0 ORDER BY sort [ RunTime:0.000383s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000096s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000194s ]
+NOTIC: [8] Undefined variable: allCss C:\wamp\www\zhixing\Application\Runtime\Cache\Home\7b77775f00e57a9d8807c87feb3333f0.php 第 7 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp\www\zhixing\Application\Runtime\Cache\Home\7b77775f00e57a9d8807c87feb3333f0.php 第 7 行.
+NOTIC: [8] Undefined variable: allJs C:\wamp\www\zhixing\Application\Runtime\Cache\Home\7b77775f00e57a9d8807c87feb3333f0.php 第 12 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp\www\zhixing\Application\Runtime\Cache\Home\7b77775f00e57a9d8807c87feb3333f0.php 第 12 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012293s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012384s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000252s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000325s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000480s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000562s ]
+
+[ 2014-10-10T09:36:04+08:00 ] 127.0.0.1 /zhixing/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000525s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000826s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000936s ]
+SQL: SHOW COLUMNS FROM `zx_article` [ RunTime:0.001674s ]
+SQL: SHOW COLUMNS FROM `zx_slide_show` [ RunTime:0.001394s ]
+ERR: 1146:Table 'zhixing.zx_slide_show' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `zx_slide_show`
+SQL: SHOW COLUMNS FROM `zx_type` [ RunTime:0.002172s ]
+SQL: SELECT * FROM zx_type WHERE parent='招聘信息' [ RunTime:0.000287s ]
+SQL: SELECT * FROM zx_article WHERE  type='招聘信息'  OR type='招聘测试1' OR type='大大声' AND status_0=1 ORDER BY id DESC LIMIT 0,6 [ RunTime:0.000292s ]
+SQL: SHOW COLUMNS FROM `zx_type` [ RunTime:0.001666s ]
+SQL: SELECT * FROM zx_type WHERE parent='活动动态' [ RunTime:0.000234s ]
+SQL: SELECT * FROM zx_article WHERE  type='活动动态'  OR type='sdafdsfsdsada' AND status_0=1 ORDER BY id DESC LIMIT 0,6 [ RunTime:0.000336s ]
+SQL: SHOW COLUMNS FROM `zx_type` [ RunTime:0.001872s ]
+SQL: SELECT * FROM zx_type WHERE parent='知行干货' [ RunTime:0.000355s ]
+SQL: SELECT * FROM zx_article WHERE  type='知行干货'  OR type='ganhuo1' AND status_0=1 ORDER BY id DESC LIMIT 0,7 [ RunTime:0.000508s ]
+SQL: SELECT * FROM zx_slideshow WHERE sort!=0 ORDER BY sort [ RunTime:0.000369s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000112s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000218s ]
+NOTIC: [8] Undefined variable: allCss C:\wamp\www\zhixing\Application\Runtime\Cache\Home\7b77775f00e57a9d8807c87feb3333f0.php 第 7 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp\www\zhixing\Application\Runtime\Cache\Home\7b77775f00e57a9d8807c87feb3333f0.php 第 7 行.
+NOTIC: [8] Undefined variable: allJs C:\wamp\www\zhixing\Application\Runtime\Cache\Home\7b77775f00e57a9d8807c87feb3333f0.php 第 12 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp\www\zhixing\Application\Runtime\Cache\Home\7b77775f00e57a9d8807c87feb3333f0.php 第 12 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011053s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011139s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000274s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000348s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000506s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000585s ]
+
+[ 2014-10-10T09:39:42+08:00 ] 127.0.0.1 /zhixing/index.php/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000425s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000576s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000669s ]
+SQL: SHOW COLUMNS FROM `zx_article` [ RunTime:0.001661s ]
+SQL: SHOW COLUMNS FROM `zx_slide_show` [ RunTime:0.001281s ]
+ERR: 1146:Table 'zhixing.zx_slide_show' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `zx_slide_show`
+SQL: SHOW COLUMNS FROM `zx_type` [ RunTime:0.001409s ]
+SQL: SELECT * FROM zx_type WHERE parent='招聘信息' [ RunTime:0.000250s ]
+SQL: SELECT * FROM zx_article WHERE  type='招聘信息'  OR type='招聘测试1' OR type='大大声' AND status_0=1 ORDER BY id DESC LIMIT 0,6 [ RunTime:0.000268s ]
+SQL: SHOW COLUMNS FROM `zx_type` [ RunTime:0.001575s ]
+SQL: SELECT * FROM zx_type WHERE parent='活动动态' [ RunTime:0.000366s ]
+SQL: SELECT * FROM zx_article WHERE  type='活动动态'  OR type='sdafdsfsdsada' AND status_0=1 ORDER BY id DESC LIMIT 0,6 [ RunTime:0.000435s ]
+SQL: SHOW COLUMNS FROM `zx_type` [ RunTime:0.001582s ]
+SQL: SELECT * FROM zx_type WHERE parent='知行干货' [ RunTime:0.000212s ]
+SQL: SELECT * FROM zx_article WHERE  type='知行干货'  OR type='ganhuo1' AND status_0=1 ORDER BY id DESC LIMIT 0,7 [ RunTime:0.000286s ]
+SQL: SELECT * FROM zx_slideshow WHERE sort!=0 ORDER BY sort [ RunTime:0.000192s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000096s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000199s ]
+NOTIC: [8] Undefined variable: allCss C:\wamp\www\zhixing\Application\Runtime\Cache\Home\7b77775f00e57a9d8807c87feb3333f0.php 第 7 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp\www\zhixing\Application\Runtime\Cache\Home\7b77775f00e57a9d8807c87feb3333f0.php 第 7 行.
+NOTIC: [8] Undefined variable: allJs C:\wamp\www\zhixing\Application\Runtime\Cache\Home\7b77775f00e57a9d8807c87feb3333f0.php 第 12 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp\www\zhixing\Application\Runtime\Cache\Home\7b77775f00e57a9d8807c87feb3333f0.php 第 12 行.
+NOTIC: [8] Undefined index: secondH1 C:\wamp\www\zhixing\Application\Runtime\Cache\Home\7b77775f00e57a9d8807c87feb3333f0.php 第 122 行.
+NOTIC: [8] Undefined index: secondH1 C:\wamp\www\zhixing\Application\Runtime\Cache\Home\7b77775f00e57a9d8807c87feb3333f0.php 第 122 行.
+NOTIC: [8] Undefined index: secondH1 C:\wamp\www\zhixing\Application\Runtime\Cache\Home\7b77775f00e57a9d8807c87feb3333f0.php 第 122 行.
+NOTIC: [8] Undefined index: secondH1 C:\wamp\www\zhixing\Application\Runtime\Cache\Home\7b77775f00e57a9d8807c87feb3333f0.php 第 122 行.
+NOTIC: [8] Undefined index: secondH1 C:\wamp\www\zhixing\Application\Runtime\Cache\Home\7b77775f00e57a9d8807c87feb3333f0.php 第 122 行.
+NOTIC: [8] Undefined index: secondH1 C:\wamp\www\zhixing\Application\Runtime\Cache\Home\7b77775f00e57a9d8807c87feb3333f0.php 第 122 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011043s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011125s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000287s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000360s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000638s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000717s ]
+
+[ 2014-10-10T09:40:17+08:00 ] 127.0.0.1 /zhixing/index.php/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000449s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000591s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000682s ]
+SQL: SHOW COLUMNS FROM `zx_article` [ RunTime:0.001756s ]
+SQL: SHOW COLUMNS FROM `zx_slide_show` [ RunTime:0.001331s ]
+ERR: 1146:Table 'zhixing.zx_slide_show' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `zx_slide_show`
+SQL: SHOW COLUMNS FROM `zx_type` [ RunTime:0.001439s ]
+SQL: SELECT * FROM zx_type WHERE parent='招聘信息' [ RunTime:0.000248s ]
+SQL: SELECT * FROM zx_article WHERE  type='招聘信息'  OR type='招聘测试1' OR type='大大声' AND status_0=1 ORDER BY id DESC LIMIT 0,6 [ RunTime:0.000280s ]
+SQL: SHOW COLUMNS FROM `zx_type` [ RunTime:0.001480s ]
+SQL: SELECT * FROM zx_type WHERE parent='活动动态' [ RunTime:0.000201s ]
+SQL: SELECT * FROM zx_article WHERE  type='活动动态'  OR type='sdafdsfsdsada' AND status_0=1 ORDER BY id DESC LIMIT 0,6 [ RunTime:0.000483s ]
+SQL: SHOW COLUMNS FROM `zx_type` [ RunTime:0.002237s ]
+SQL: SELECT * FROM zx_type WHERE parent='知行干货' [ RunTime:0.000236s ]
+SQL: SELECT * FROM zx_article WHERE  type='知行干货'  OR type='ganhuo1' AND status_0=1 ORDER BY id DESC LIMIT 0,7 [ RunTime:0.000363s ]
+SQL: SELECT * FROM zx_slideshow WHERE sort!=0 ORDER BY sort [ RunTime:0.000203s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000179s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000368s ]
+NOTIC: [8] Undefined variable: allCss C:\wamp\www\zhixing\Application\Runtime\Cache\Home\7b77775f00e57a9d8807c87feb3333f0.php 第 7 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp\www\zhixing\Application\Runtime\Cache\Home\7b77775f00e57a9d8807c87feb3333f0.php 第 7 行.
+NOTIC: [8] Undefined variable: allJs C:\wamp\www\zhixing\Application\Runtime\Cache\Home\7b77775f00e57a9d8807c87feb3333f0.php 第 12 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp\www\zhixing\Application\Runtime\Cache\Home\7b77775f00e57a9d8807c87feb3333f0.php 第 12 行.
+NOTIC: [8] Undefined index: secondH1 C:\wamp\www\zhixing\Application\Runtime\Cache\Home\7b77775f00e57a9d8807c87feb3333f0.php 第 122 行.
+NOTIC: [8] Undefined index: secondH1 C:\wamp\www\zhixing\Application\Runtime\Cache\Home\7b77775f00e57a9d8807c87feb3333f0.php 第 122 行.
+NOTIC: [8] Undefined index: secondH1 C:\wamp\www\zhixing\Application\Runtime\Cache\Home\7b77775f00e57a9d8807c87feb3333f0.php 第 122 行.
+NOTIC: [8] Undefined index: secondH1 C:\wamp\www\zhixing\Application\Runtime\Cache\Home\7b77775f00e57a9d8807c87feb3333f0.php 第 122 行.
+NOTIC: [8] Undefined index: secondH1 C:\wamp\www\zhixing\Application\Runtime\Cache\Home\7b77775f00e57a9d8807c87feb3333f0.php 第 122 行.
+NOTIC: [8] Undefined index: secondH1 C:\wamp\www\zhixing\Application\Runtime\Cache\Home\7b77775f00e57a9d8807c87feb3333f0.php 第 122 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011629s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011714s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000277s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000350s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000518s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000594s ]
+
+[ 2014-10-10T09:40:32+08:00 ] 127.0.0.1 /zhixing/index.php/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000617s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000852s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001007s ]
+SQL: SHOW COLUMNS FROM `zx_article` [ RunTime:0.002263s ]
+SQL: SHOW COLUMNS FROM `zx_slide_show` [ RunTime:0.001872s ]
+ERR: 1146:Table 'zhixing.zx_slide_show' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `zx_slide_show`
+SQL: SHOW COLUMNS FROM `zx_type` [ RunTime:0.001993s ]
+SQL: SELECT * FROM zx_type WHERE parent='招聘信息' [ RunTime:0.000247s ]
+SQL: SELECT * FROM zx_article WHERE  type='招聘信息'  OR type='招聘测试1' OR type='大大声' AND status_0=1 ORDER BY id DESC LIMIT 0,6 [ RunTime:0.000290s ]
+SQL: SHOW COLUMNS FROM `zx_type` [ RunTime:0.002013s ]
+SQL: SELECT * FROM zx_type WHERE parent='活动动态' [ RunTime:0.000210s ]
+SQL: SELECT * FROM zx_article WHERE  type='活动动态'  OR type='sdafdsfsdsada' AND status_0=1 ORDER BY id DESC LIMIT 0,6 [ RunTime:0.000425s ]
+SQL: SHOW COLUMNS FROM `zx_type` [ RunTime:0.001814s ]
+SQL: SELECT * FROM zx_type WHERE parent='知行干货' [ RunTime:0.000231s ]
+SQL: SELECT * FROM zx_article WHERE  type='知行干货'  OR type='ganhuo1' AND status_0=1 ORDER BY id DESC LIMIT 0,7 [ RunTime:0.000300s ]
+SQL: SELECT * FROM zx_slideshow WHERE sort!=0 ORDER BY sort [ RunTime:0.000205s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000104s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000214s ]
+NOTIC: [8] Undefined variable: allCss C:\wamp\www\zhixing\Application\Runtime\Cache\Home\7b77775f00e57a9d8807c87feb3333f0.php 第 7 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp\www\zhixing\Application\Runtime\Cache\Home\7b77775f00e57a9d8807c87feb3333f0.php 第 7 行.
+NOTIC: [8] Undefined variable: allJs C:\wamp\www\zhixing\Application\Runtime\Cache\Home\7b77775f00e57a9d8807c87feb3333f0.php 第 12 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp\www\zhixing\Application\Runtime\Cache\Home\7b77775f00e57a9d8807c87feb3333f0.php 第 12 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015047s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015170s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000293s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000367s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000573s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000670s ]
+
+[ 2014-10-10T09:40:56+08:00 ] 127.0.0.1 /zhixing/index.php/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000444s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000593s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000681s ]
+SQL: SHOW COLUMNS FROM `zx_article` [ RunTime:0.001668s ]
+SQL: SHOW COLUMNS FROM `zx_slide_show` [ RunTime:0.001347s ]
+ERR: 1146:Table 'zhixing.zx_slide_show' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `zx_slide_show`
+SQL: SHOW COLUMNS FROM `zx_type` [ RunTime:0.001463s ]
+SQL: SELECT * FROM zx_type WHERE parent='招聘信息' [ RunTime:0.000261s ]
+SQL: SELECT * FROM zx_article WHERE  type='招聘信息'  OR type='招聘测试1' OR type='大大声' AND status_0=1 ORDER BY id DESC LIMIT 0,6 [ RunTime:0.000413s ]
+SQL: SHOW COLUMNS FROM `zx_type` [ RunTime:0.001745s ]
+SQL: SELECT * FROM zx_type WHERE parent='活动动态' [ RunTime:0.000224s ]
+SQL: SELECT * FROM zx_article WHERE  type='活动动态'  OR type='sdafdsfsdsada' AND status_0=1 ORDER BY id DESC LIMIT 0,6 [ RunTime:0.000295s ]
+SQL: SHOW COLUMNS FROM `zx_type` [ RunTime:0.001642s ]
+SQL: SELECT * FROM zx_type WHERE parent='知行干货' [ RunTime:0.000322s ]
+SQL: SELECT * FROM zx_article WHERE  type='知行干货'  OR type='ganhuo1' AND status_0=1 ORDER BY id DESC LIMIT 0,7 [ RunTime:0.000318s ]
+SQL: SELECT * FROM zx_slideshow WHERE sort!=0 ORDER BY sort [ RunTime:0.000257s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000095s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000192s ]
+NOTIC: [8] Undefined variable: allCss C:\wamp\www\zhixing\Application\Runtime\Cache\Home\7b77775f00e57a9d8807c87feb3333f0.php 第 7 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp\www\zhixing\Application\Runtime\Cache\Home\7b77775f00e57a9d8807c87feb3333f0.php 第 7 行.
+NOTIC: [8] Undefined variable: allJs C:\wamp\www\zhixing\Application\Runtime\Cache\Home\7b77775f00e57a9d8807c87feb3333f0.php 第 12 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp\www\zhixing\Application\Runtime\Cache\Home\7b77775f00e57a9d8807c87feb3333f0.php 第 12 行.
+NOTIC: [8] Undefined index: firstH1 C:\wamp\www\zhixing\Application\Runtime\Cache\Home\7b77775f00e57a9d8807c87feb3333f0.php 第 121 行.
+NOTIC: [8] Undefined index: secondH1 C:\wamp\www\zhixing\Application\Runtime\Cache\Home\7b77775f00e57a9d8807c87feb3333f0.php 第 122 行.
+NOTIC: [8] Undefined index: firstH1 C:\wamp\www\zhixing\Application\Runtime\Cache\Home\7b77775f00e57a9d8807c87feb3333f0.php 第 121 行.
+NOTIC: [8] Undefined index: secondH1 C:\wamp\www\zhixing\Application\Runtime\Cache\Home\7b77775f00e57a9d8807c87feb3333f0.php 第 122 行.
+NOTIC: [8] Undefined index: firstH1 C:\wamp\www\zhixing\Application\Runtime\Cache\Home\7b77775f00e57a9d8807c87feb3333f0.php 第 121 行.
+NOTIC: [8] Undefined index: secondH1 C:\wamp\www\zhixing\Application\Runtime\Cache\Home\7b77775f00e57a9d8807c87feb3333f0.php 第 122 行.
+NOTIC: [8] Undefined index: firstH1 C:\wamp\www\zhixing\Application\Runtime\Cache\Home\7b77775f00e57a9d8807c87feb3333f0.php 第 121 行.
+NOTIC: [8] Undefined index: secondH1 C:\wamp\www\zhixing\Application\Runtime\Cache\Home\7b77775f00e57a9d8807c87feb3333f0.php 第 122 行.
+NOTIC: [8] Undefined index: firstH1 C:\wamp\www\zhixing\Application\Runtime\Cache\Home\7b77775f00e57a9d8807c87feb3333f0.php 第 121 行.
+NOTIC: [8] Undefined index: secondH1 C:\wamp\www\zhixing\Application\Runtime\Cache\Home\7b77775f00e57a9d8807c87feb3333f0.php 第 122 行.
+NOTIC: [8] Undefined index: firstH1 C:\wamp\www\zhixing\Application\Runtime\Cache\Home\7b77775f00e57a9d8807c87feb3333f0.php 第 121 行.
+NOTIC: [8] Undefined index: secondH1 C:\wamp\www\zhixing\Application\Runtime\Cache\Home\7b77775f00e57a9d8807c87feb3333f0.php 第 122 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011134s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011217s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000259s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000326s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000559s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000639s ]
+
+[ 2014-10-10T09:41:14+08:00 ] 127.0.0.1 /zhixing/index.php/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000452s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000534s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000621s ]
+SQL: SHOW COLUMNS FROM `zx_article` [ RunTime:0.001792s ]
+SQL: SHOW COLUMNS FROM `zx_slide_show` [ RunTime:0.001933s ]
+ERR: 1146:Table 'zhixing.zx_slide_show' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `zx_slide_show`
+SQL: SHOW COLUMNS FROM `zx_type` [ RunTime:0.002376s ]
+SQL: SELECT * FROM zx_type WHERE parent='招聘信息' [ RunTime:0.000283s ]
+SQL: SELECT * FROM zx_article WHERE  type='招聘信息'  OR type='招聘测试1' OR type='大大声' AND status_0=1 ORDER BY id DESC LIMIT 0,6 [ RunTime:0.000268s ]
+SQL: SHOW COLUMNS FROM `zx_type` [ RunTime:0.001694s ]
+SQL: SELECT * FROM zx_type WHERE parent='活动动态' [ RunTime:0.000220s ]
+SQL: SELECT * FROM zx_article WHERE  type='活动动态'  OR type='sdafdsfsdsada' AND status_0=1 ORDER BY id DESC LIMIT 0,6 [ RunTime:0.000293s ]
+SQL: SHOW COLUMNS FROM `zx_type` [ RunTime:0.001510s ]
+SQL: SELECT * FROM zx_type WHERE parent='知行干货' [ RunTime:0.000203s ]
+SQL: SELECT * FROM zx_article WHERE  type='知行干货'  OR type='ganhuo1' AND status_0=1 ORDER BY id DESC LIMIT 0,7 [ RunTime:0.000282s ]
+SQL: SELECT * FROM zx_slideshow WHERE sort!=0 ORDER BY sort [ RunTime:0.000211s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000092s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000179s ]
+NOTIC: [8] Undefined variable: allCss C:\wamp\www\zhixing\Application\Runtime\Cache\Home\7b77775f00e57a9d8807c87feb3333f0.php 第 7 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp\www\zhixing\Application\Runtime\Cache\Home\7b77775f00e57a9d8807c87feb3333f0.php 第 7 行.
+NOTIC: [8] Undefined variable: allJs C:\wamp\www\zhixing\Application\Runtime\Cache\Home\7b77775f00e57a9d8807c87feb3333f0.php 第 12 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp\www\zhixing\Application\Runtime\Cache\Home\7b77775f00e57a9d8807c87feb3333f0.php 第 12 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010188s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010270s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000208s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000280s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000457s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000534s ]
+
+[ 2014-10-10T09:41:22+08:00 ] 127.0.0.1 /zhixing/index.php/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000907s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001213s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001427s ]
+SQL: SHOW COLUMNS FROM `zx_article` [ RunTime:0.001673s ]
+SQL: SHOW COLUMNS FROM `zx_slide_show` [ RunTime:0.001365s ]
+ERR: 1146:Table 'zhixing.zx_slide_show' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `zx_slide_show`
+SQL: SHOW COLUMNS FROM `zx_type` [ RunTime:0.001500s ]
+SQL: SELECT * FROM zx_type WHERE parent='招聘信息' [ RunTime:0.000257s ]
+SQL: SELECT * FROM zx_article WHERE  type='招聘信息'  OR type='招聘测试1' OR type='大大声' AND status_0=1 ORDER BY id DESC LIMIT 0,6 [ RunTime:0.000300s ]
+SQL: SHOW COLUMNS FROM `zx_type` [ RunTime:0.001500s ]
+SQL: SELECT * FROM zx_type WHERE parent='活动动态' [ RunTime:0.000224s ]
+SQL: SELECT * FROM zx_article WHERE  type='活动动态'  OR type='sdafdsfsdsada' AND status_0=1 ORDER BY id DESC LIMIT 0,6 [ RunTime:0.000301s ]
+SQL: SHOW COLUMNS FROM `zx_type` [ RunTime:0.001778s ]
+SQL: SELECT * FROM zx_type WHERE parent='知行干货' [ RunTime:0.000234s ]
+SQL: SELECT * FROM zx_article WHERE  type='知行干货'  OR type='ganhuo1' AND status_0=1 ORDER BY id DESC LIMIT 0,7 [ RunTime:0.000304s ]
+SQL: SELECT * FROM zx_slideshow WHERE sort!=0 ORDER BY sort [ RunTime:0.000447s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000123s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000275s ]
+NOTIC: [8] Undefined variable: allCss C:\wamp\www\zhixing\Application\Runtime\Cache\Home\7b77775f00e57a9d8807c87feb3333f0.php 第 7 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp\www\zhixing\Application\Runtime\Cache\Home\7b77775f00e57a9d8807c87feb3333f0.php 第 7 行.
+NOTIC: [8] Undefined variable: allJs C:\wamp\www\zhixing\Application\Runtime\Cache\Home\7b77775f00e57a9d8807c87feb3333f0.php 第 12 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp\www\zhixing\Application\Runtime\Cache\Home\7b77775f00e57a9d8807c87feb3333f0.php 第 12 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015211s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015364s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000304s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000432s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000681s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000817s ]
+
+[ 2014-10-10T09:43:23+08:00 ] 127.0.0.1 /zhixing/index.php/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000906s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001520s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001734s ]
+SQL: SHOW COLUMNS FROM `zx_article` [ RunTime:0.002435s ]
+SQL: SHOW COLUMNS FROM `zx_slide_show` [ RunTime:0.001370s ]
+ERR: 1146:Table 'zhixing.zx_slide_show' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `zx_slide_show`
+SQL: SHOW COLUMNS FROM `zx_type` [ RunTime:0.001486s ]
+SQL: SELECT * FROM zx_type WHERE parent='招聘信息' [ RunTime:0.000250s ]
+SQL: SELECT * FROM zx_article WHERE  type='招聘信息'  OR type='招聘测试1' OR type='大大声' AND status_0=1 ORDER BY id DESC LIMIT 0,6 [ RunTime:0.000272s ]
+SQL: SHOW COLUMNS FROM `zx_type` [ RunTime:0.002344s ]
+SQL: SELECT * FROM zx_type WHERE parent='活动动态' [ RunTime:0.000243s ]
+SQL: SELECT * FROM zx_article WHERE  type='活动动态'  OR type='sdafdsfsdsada' AND status_0=1 ORDER BY id DESC LIMIT 0,6 [ RunTime:0.000368s ]
+SQL: SHOW COLUMNS FROM `zx_type` [ RunTime:0.002163s ]
+SQL: SELECT * FROM zx_type WHERE parent='知行干货' [ RunTime:0.000232s ]
+SQL: SELECT * FROM zx_article WHERE  type='知行干货'  OR type='ganhuo1' AND status_0=1 ORDER BY id DESC LIMIT 0,7 [ RunTime:0.000347s ]
+SQL: SELECT * FROM zx_slideshow WHERE sort!=0 ORDER BY sort [ RunTime:0.000397s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000097s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000194s ]
+NOTIC: [8] Undefined variable: allCss C:\wamp\www\zhixing\Application\Runtime\Cache\Home\7b77775f00e57a9d8807c87feb3333f0.php 第 7 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp\www\zhixing\Application\Runtime\Cache\Home\7b77775f00e57a9d8807c87feb3333f0.php 第 7 行.
+NOTIC: [8] Undefined variable: allJs C:\wamp\www\zhixing\Application\Runtime\Cache\Home\7b77775f00e57a9d8807c87feb3333f0.php 第 12 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp\www\zhixing\Application\Runtime\Cache\Home\7b77775f00e57a9d8807c87feb3333f0.php 第 12 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013458s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013570s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000271s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000343s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000544s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000646s ]
+
+[ 2014-10-10T09:44:11+08:00 ] 127.0.0.1 /zhixing/index.php/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000596s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000783s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000884s ]
+SQL: SHOW COLUMNS FROM `zx_article` [ RunTime:0.001703s ]
+SQL: SHOW COLUMNS FROM `zx_slide_show` [ RunTime:0.001385s ]
+ERR: 1146:Table 'zhixing.zx_slide_show' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `zx_slide_show`
+SQL: SHOW COLUMNS FROM `zx_type` [ RunTime:0.001578s ]
+SQL: SELECT * FROM zx_type WHERE parent='招聘信息' [ RunTime:0.000234s ]
+SQL: SELECT * FROM zx_article WHERE  type='招聘信息'  OR type='招聘测试1' OR type='大大声' AND status_0=1 ORDER BY id DESC LIMIT 0,6 [ RunTime:0.000259s ]
+SQL: SHOW COLUMNS FROM `zx_type` [ RunTime:0.001548s ]
+SQL: SELECT * FROM zx_type WHERE parent='活动动态' [ RunTime:0.000275s ]
+SQL: SELECT * FROM zx_article WHERE  type='活动动态'  OR type='sdafdsfsdsada' AND status_0=1 ORDER BY id DESC LIMIT 0,6 [ RunTime:0.000753s ]
+SQL: SHOW COLUMNS FROM `zx_type` [ RunTime:0.002959s ]
+SQL: SELECT * FROM zx_type WHERE parent='知行干货' [ RunTime:0.000459s ]
+SQL: SELECT * FROM zx_article WHERE  type='知行干货'  OR type='ganhuo1' AND status_0=1 ORDER BY id DESC LIMIT 0,7 [ RunTime:0.000523s ]
+SQL: SELECT * FROM zx_slideshow WHERE sort!=0 ORDER BY sort [ RunTime:0.000369s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000093s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000215s ]
+NOTIC: [8] Undefined variable: allCss C:\wamp\www\zhixing\Application\Runtime\Cache\Home\7b77775f00e57a9d8807c87feb3333f0.php 第 7 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp\www\zhixing\Application\Runtime\Cache\Home\7b77775f00e57a9d8807c87feb3333f0.php 第 7 行.
+NOTIC: [8] Undefined variable: allJs C:\wamp\www\zhixing\Application\Runtime\Cache\Home\7b77775f00e57a9d8807c87feb3333f0.php 第 12 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp\www\zhixing\Application\Runtime\Cache\Home\7b77775f00e57a9d8807c87feb3333f0.php 第 12 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015322s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015443s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000431s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000561s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000812s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000956s ]
+
+[ 2014-10-10T09:45:25+08:00 ] 127.0.0.1 /zhixing/index.php/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000432s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000577s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000665s ]
+SQL: SHOW COLUMNS FROM `zx_article` [ RunTime:0.001649s ]
+SQL: SHOW COLUMNS FROM `zx_slide_show` [ RunTime:0.001416s ]
+ERR: 1146:Table 'zhixing.zx_slide_show' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `zx_slide_show`
+SQL: SHOW COLUMNS FROM `zx_type` [ RunTime:0.001445s ]
+SQL: SELECT * FROM zx_type WHERE parent='招聘信息' [ RunTime:0.000233s ]
+SQL: SELECT * FROM zx_article WHERE  type='招聘信息'  OR type='招聘测试1' OR type='大大声' AND status_0=1 ORDER BY id DESC LIMIT 0,6 [ RunTime:0.000247s ]
+SQL: SHOW COLUMNS FROM `zx_type` [ RunTime:0.001669s ]
+SQL: SELECT * FROM zx_type WHERE parent='活动动态' [ RunTime:0.000243s ]
+SQL: SELECT * FROM zx_article WHERE  type='活动动态'  OR type='sdafdsfsdsada' AND status_0=1 ORDER BY id DESC LIMIT 0,6 [ RunTime:0.000339s ]
+SQL: SHOW COLUMNS FROM `zx_type` [ RunTime:0.001659s ]
+SQL: SELECT * FROM zx_type WHERE parent='知行干货' [ RunTime:0.000259s ]
+SQL: SELECT * FROM zx_article WHERE  type='知行干货'  OR type='ganhuo1' AND status_0=1 ORDER BY id DESC LIMIT 0,7 [ RunTime:0.000374s ]
+SQL: SELECT * FROM zx_slideshow WHERE sort!=0 ORDER BY sort [ RunTime:0.000277s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000097s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000196s ]
+NOTIC: [8] Undefined variable: allCss C:\wamp\www\zhixing\Application\Runtime\Cache\Home\7b77775f00e57a9d8807c87feb3333f0.php 第 7 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp\www\zhixing\Application\Runtime\Cache\Home\7b77775f00e57a9d8807c87feb3333f0.php 第 7 行.
+NOTIC: [8] Undefined variable: allJs C:\wamp\www\zhixing\Application\Runtime\Cache\Home\7b77775f00e57a9d8807c87feb3333f0.php 第 12 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp\www\zhixing\Application\Runtime\Cache\Home\7b77775f00e57a9d8807c87feb3333f0.php 第 12 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011574s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011665s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000367s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000447s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000531s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000610s ]
+
+[ 2014-10-10T09:46:24+08:00 ] 127.0.0.1 /zhixing/index.php/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000645s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001012s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001184s ]
+SQL: SHOW COLUMNS FROM `zx_article` [ RunTime:0.001757s ]
+SQL: SHOW COLUMNS FROM `zx_slide_show` [ RunTime:0.002179s ]
+ERR: 1146:Table 'zhixing.zx_slide_show' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `zx_slide_show`
+SQL: SHOW COLUMNS FROM `zx_type` [ RunTime:0.002278s ]
+SQL: SELECT * FROM zx_type WHERE parent='招聘信息' [ RunTime:0.000247s ]
+SQL: SELECT * FROM zx_article WHERE  type='招聘信息'  OR type='招聘测试1' OR type='大大声' AND status_0=1 ORDER BY id DESC LIMIT 0,6 [ RunTime:0.000257s ]
+SQL: SHOW COLUMNS FROM `zx_type` [ RunTime:0.001416s ]
+SQL: SELECT * FROM zx_type WHERE parent='活动动态' [ RunTime:0.000181s ]
+SQL: SELECT * FROM zx_article WHERE  type='活动动态'  OR type='sdafdsfsdsada' AND status_0=1 ORDER BY id DESC LIMIT 0,6 [ RunTime:0.000365s ]
+SQL: SHOW COLUMNS FROM `zx_type` [ RunTime:0.001672s ]
+SQL: SELECT * FROM zx_type WHERE parent='知行干货' [ RunTime:0.000375s ]
+SQL: SELECT * FROM zx_article WHERE  type='知行干货'  OR type='ganhuo1' AND status_0=1 ORDER BY id DESC LIMIT 0,7 [ RunTime:0.000386s ]
+SQL: SELECT * FROM zx_slideshow WHERE sort!=0 ORDER BY sort [ RunTime:0.000299s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000089s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000175s ]
+NOTIC: [8] Undefined variable: allCss C:\wamp\www\zhixing\Application\Runtime\Cache\Home\7b77775f00e57a9d8807c87feb3333f0.php 第 7 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp\www\zhixing\Application\Runtime\Cache\Home\7b77775f00e57a9d8807c87feb3333f0.php 第 7 行.
+NOTIC: [8] Undefined variable: allJs C:\wamp\www\zhixing\Application\Runtime\Cache\Home\7b77775f00e57a9d8807c87feb3333f0.php 第 12 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp\www\zhixing\Application\Runtime\Cache\Home\7b77775f00e57a9d8807c87feb3333f0.php 第 12 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009961s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010046s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000240s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000314s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000691s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000791s ]
+
+[ 2014-10-10T09:47:46+08:00 ] 127.0.0.1 /zhixing/index.php/Home/Article/index/type/%E7%9F%A5%E8%A1%8C%E5%B9%B2%E8%B4%A7.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000490s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000880s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000998s ]
+SQL: SHOW COLUMNS FROM `zx_article` [ RunTime:0.001747s ]
+SQL: SHOW COLUMNS FROM `zx_type` [ RunTime:0.002067s ]
+SQL: SELECT * FROM zx_type WHERE parent='知行干货' [ RunTime:0.000311s ]
+SQL: SELECT * FROM zx_type WHERE name='知行干货' [ RunTime:0.000198s ]
+NOTIC: [8] Array to string conversion C:\wamp\www\zhixing\Application\Home\Controller\ArticleController.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `zx_article` [ RunTime:0.001950s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zx_article` WHERE ( type='Array' AND status_0=1 ) LIMIT 1   [ RunTime:0.000302s ]
+SQL: SELECT * FROM `zx_article` WHERE ( type='Array' AND status_0=1 ) ORDER BY id DESC LIMIT 0,8   [ RunTime:0.000400s ]
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp\www\zhixing\Application\Home\Controller\ArticleController.class.php 第 19 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000176s ]
+NOTIC: [8] Undefined variable: allCss C:\wamp\www\zhixing\Application\Runtime\Cache\Home\898face22148efbe3b0369620bf59ccd.php 第 8 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp\www\zhixing\Application\Runtime\Cache\Home\898face22148efbe3b0369620bf59ccd.php 第 8 行.
+NOTIC: [8] Undefined variable: allJs C:\wamp\www\zhixing\Application\Runtime\Cache\Home\898face22148efbe3b0369620bf59ccd.php 第 13 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp\www\zhixing\Application\Runtime\Cache\Home\898face22148efbe3b0369620bf59ccd.php 第 13 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp\www\zhixing\Application\Runtime\Cache\Home\898face22148efbe3b0369620bf59ccd.php 第 54 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008251s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008335s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000270s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000341s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000525s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000606s ]
+
+[ 2014-10-10T09:47:48+08:00 ] 127.0.0.1 /zhixing/index.php/Home/Article/index/type/%E6%B4%BB%E5%8A%A8%E5%8A%A8%E6%80%81.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000476s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000609s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000695s ]
+SQL: SHOW COLUMNS FROM `zx_article` [ RunTime:0.001614s ]
+SQL: SHOW COLUMNS FROM `zx_type` [ RunTime:0.002168s ]
+SQL: SELECT * FROM zx_type WHERE parent='活动动态' [ RunTime:0.000297s ]
+SQL: SELECT * FROM zx_type WHERE name='活动动态' [ RunTime:0.000201s ]
+NOTIC: [8] Array to string conversion C:\wamp\www\zhixing\Application\Home\Controller\ArticleController.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `zx_article` [ RunTime:0.002874s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zx_article` WHERE ( type='Array' AND status_0=1 ) LIMIT 1   [ RunTime:0.000304s ]
+SQL: SELECT * FROM `zx_article` WHERE ( type='Array' AND status_0=1 ) ORDER BY id DESC LIMIT 0,8   [ RunTime:0.000387s ]
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp\www\zhixing\Application\Home\Controller\ArticleController.class.php 第 19 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000075s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000181s ]
+NOTIC: [8] Undefined variable: allCss C:\wamp\www\zhixing\Application\Runtime\Cache\Home\898face22148efbe3b0369620bf59ccd.php 第 8 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp\www\zhixing\Application\Runtime\Cache\Home\898face22148efbe3b0369620bf59ccd.php 第 8 行.
+NOTIC: [8] Undefined variable: allJs C:\wamp\www\zhixing\Application\Runtime\Cache\Home\898face22148efbe3b0369620bf59ccd.php 第 13 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp\www\zhixing\Application\Runtime\Cache\Home\898face22148efbe3b0369620bf59ccd.php 第 13 行.
+NOTIC: [8] Undefined variable: download C:\wamp\www\zhixing\Application\Runtime\Cache\Home\898face22148efbe3b0369620bf59ccd.php 第 46 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp\www\zhixing\Application\Runtime\Cache\Home\898face22148efbe3b0369620bf59ccd.php 第 54 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009106s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009258s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000220s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000292s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000484s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000565s ]
+
+[ 2014-10-10T09:47:48+08:00 ] 127.0.0.1 /zhixing/index.php/Home/Article/index/type/%E6%8B%9B%E8%81%98%E4%BF%A1%E6%81%AF.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000505s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000491s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000578s ]
+SQL: SHOW COLUMNS FROM `zx_article` [ RunTime:0.002353s ]
+SQL: SHOW COLUMNS FROM `zx_type` [ RunTime:0.001735s ]
+SQL: SELECT * FROM zx_type WHERE parent='招聘信息' [ RunTime:0.000277s ]
+SQL: SELECT * FROM zx_type WHERE name='招聘信息' [ RunTime:0.000223s ]
+NOTIC: [8] Array to string conversion C:\wamp\www\zhixing\Application\Home\Controller\ArticleController.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `zx_article` [ RunTime:0.001625s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zx_article` WHERE ( type='Array' AND status_0=1 ) LIMIT 1   [ RunTime:0.000262s ]
+SQL: SELECT * FROM `zx_article` WHERE ( type='Array' AND status_0=1 ) ORDER BY id DESC LIMIT 0,8   [ RunTime:0.000399s ]
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp\www\zhixing\Application\Home\Controller\ArticleController.class.php 第 19 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000074s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000201s ]
+NOTIC: [8] Undefined variable: allCss C:\wamp\www\zhixing\Application\Runtime\Cache\Home\898face22148efbe3b0369620bf59ccd.php 第 8 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp\www\zhixing\Application\Runtime\Cache\Home\898face22148efbe3b0369620bf59ccd.php 第 8 行.
+NOTIC: [8] Undefined variable: allJs C:\wamp\www\zhixing\Application\Runtime\Cache\Home\898face22148efbe3b0369620bf59ccd.php 第 13 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp\www\zhixing\Application\Runtime\Cache\Home\898face22148efbe3b0369620bf59ccd.php 第 13 行.
+NOTIC: [8] Undefined variable: download C:\wamp\www\zhixing\Application\Runtime\Cache\Home\898face22148efbe3b0369620bf59ccd.php 第 46 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp\www\zhixing\Application\Runtime\Cache\Home\898face22148efbe3b0369620bf59ccd.php 第 54 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007846s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007931s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000211s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000282s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000457s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000533s ]
+
+[ 2014-10-10T09:47:51+08:00 ] 127.0.0.1 /zhixing/index.php/Home/Article/index/type/%E6%8B%9B%E8%81%98%E4%BF%A1%E6%81%AF.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000443s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000494s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000575s ]
+SQL: SHOW COLUMNS FROM `zx_article` [ RunTime:0.001797s ]
+SQL: SHOW COLUMNS FROM `zx_type` [ RunTime:0.001573s ]
+SQL: SELECT * FROM zx_type WHERE parent='招聘信息' [ RunTime:0.000255s ]
+SQL: SELECT * FROM zx_type WHERE name='招聘信息' [ RunTime:0.000195s ]
+NOTIC: [8] Array to string conversion C:\wamp\www\zhixing\Application\Home\Controller\ArticleController.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `zx_article` [ RunTime:0.001696s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zx_article` WHERE ( type='Array' AND status_0=1 ) LIMIT 1   [ RunTime:0.000410s ]
+SQL: SELECT * FROM `zx_article` WHERE ( type='Array' AND status_0=1 ) ORDER BY id DESC LIMIT 0,8   [ RunTime:0.000488s ]
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp\www\zhixing\Application\Home\Controller\ArticleController.class.php 第 19 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000163s ]
+NOTIC: [8] Undefined variable: allCss C:\wamp\www\zhixing\Application\Runtime\Cache\Home\898face22148efbe3b0369620bf59ccd.php 第 8 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp\www\zhixing\Application\Runtime\Cache\Home\898face22148efbe3b0369620bf59ccd.php 第 8 行.
+NOTIC: [8] Undefined variable: allJs C:\wamp\www\zhixing\Application\Runtime\Cache\Home\898face22148efbe3b0369620bf59ccd.php 第 13 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp\www\zhixing\Application\Runtime\Cache\Home\898face22148efbe3b0369620bf59ccd.php 第 13 行.
+NOTIC: [8] Undefined variable: download C:\wamp\www\zhixing\Application\Runtime\Cache\Home\898face22148efbe3b0369620bf59ccd.php 第 46 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp\www\zhixing\Application\Runtime\Cache\Home\898face22148efbe3b0369620bf59ccd.php 第 54 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007867s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007949s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000208s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000279s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000581s ]
+
+[ 2014-10-10T09:47:52+08:00 ] 127.0.0.1 /zhixing/index.php/Home/Article/index/type/%E5%A4%A7%E5%A4%A7%E5%A3%B0.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000438s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000550s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000647s ]
+SQL: SHOW COLUMNS FROM `zx_article` [ RunTime:0.001955s ]
+SQL: SHOW COLUMNS FROM `zx_type` [ RunTime:0.001789s ]
+SQL: SELECT * FROM zx_type WHERE parent='大大声' [ RunTime:0.000240s ]
+SQL: SELECT * FROM zx_type WHERE name='大大声' [ RunTime:0.000178s ]
+SQL: SHOW COLUMNS FROM `zx_article` [ RunTime:0.003261s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zx_article` WHERE ( type='大大声' AND status_0=1 ) LIMIT 1   [ RunTime:0.000330s ]
+SQL: SELECT * FROM `zx_article` WHERE ( type='大大声' AND status_0=1 ) ORDER BY id DESC LIMIT 0,8   [ RunTime:0.000424s ]
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp\www\zhixing\Application\Home\Controller\ArticleController.class.php 第 19 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000178s ]
+NOTIC: [8] Undefined variable: allCss C:\wamp\www\zhixing\Application\Runtime\Cache\Home\898face22148efbe3b0369620bf59ccd.php 第 8 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp\www\zhixing\Application\Runtime\Cache\Home\898face22148efbe3b0369620bf59ccd.php 第 8 行.
+NOTIC: [8] Undefined variable: allJs C:\wamp\www\zhixing\Application\Runtime\Cache\Home\898face22148efbe3b0369620bf59ccd.php 第 13 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp\www\zhixing\Application\Runtime\Cache\Home\898face22148efbe3b0369620bf59ccd.php 第 13 行.
+NOTIC: [8] Undefined variable: download C:\wamp\www\zhixing\Application\Runtime\Cache\Home\898face22148efbe3b0369620bf59ccd.php 第 46 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp\www\zhixing\Application\Runtime\Cache\Home\898face22148efbe3b0369620bf59ccd.php 第 54 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009832s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009919s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000226s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000298s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000488s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000569s ]
+
+[ 2014-10-10T09:47:54+08:00 ] 127.0.0.1 /zhixing/index.php/Home/Article/index/type/%E6%8B%9B%E8%81%98%E4%BF%A1%E6%81%AF.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000402s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000882s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001019s ]
+SQL: SHOW COLUMNS FROM `zx_article` [ RunTime:0.001696s ]
+SQL: SHOW COLUMNS FROM `zx_type` [ RunTime:0.001668s ]
+SQL: SELECT * FROM zx_type WHERE parent='招聘信息' [ RunTime:0.000340s ]
+SQL: SELECT * FROM zx_type WHERE name='招聘信息' [ RunTime:0.000245s ]
+NOTIC: [8] Array to string conversion C:\wamp\www\zhixing\Application\Home\Controller\ArticleController.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `zx_article` [ RunTime:0.001734s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zx_article` WHERE ( type='Array' AND status_0=1 ) LIMIT 1   [ RunTime:0.000266s ]
+SQL: SELECT * FROM `zx_article` WHERE ( type='Array' AND status_0=1 ) ORDER BY id DESC LIMIT 0,8   [ RunTime:0.000508s ]
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp\www\zhixing\Application\Home\Controller\ArticleController.class.php 第 19 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000073s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000174s ]
+NOTIC: [8] Undefined variable: allCss C:\wamp\www\zhixing\Application\Runtime\Cache\Home\898face22148efbe3b0369620bf59ccd.php 第 8 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp\www\zhixing\Application\Runtime\Cache\Home\898face22148efbe3b0369620bf59ccd.php 第 8 行.
+NOTIC: [8] Undefined variable: allJs C:\wamp\www\zhixing\Application\Runtime\Cache\Home\898face22148efbe3b0369620bf59ccd.php 第 13 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp\www\zhixing\Application\Runtime\Cache\Home\898face22148efbe3b0369620bf59ccd.php 第 13 行.
+NOTIC: [8] Undefined variable: download C:\wamp\www\zhixing\Application\Runtime\Cache\Home\898face22148efbe3b0369620bf59ccd.php 第 46 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp\www\zhixing\Application\Runtime\Cache\Home\898face22148efbe3b0369620bf59ccd.php 第 54 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008781s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008912s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000236s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000309s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000487s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000568s ]
+
+[ 2014-10-10T09:47:55+08:00 ] 127.0.0.1 /zhixing/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000371s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000494s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000579s ]
+SQL: SHOW COLUMNS FROM `zx_article` [ RunTime:0.001710s ]
+SQL: SHOW COLUMNS FROM `zx_slide_show` [ RunTime:0.001414s ]
+ERR: 1146:Table 'zhixing.zx_slide_show' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `zx_slide_show`
+SQL: SHOW COLUMNS FROM `zx_type` [ RunTime:0.001461s ]
+SQL: SELECT * FROM zx_type WHERE parent='招聘信息' [ RunTime:0.000311s ]
+SQL: SELECT * FROM zx_article WHERE  type='招聘信息'  OR type='招聘测试1' OR type='大大声' AND status_0=1 ORDER BY id DESC LIMIT 0,6 [ RunTime:0.000429s ]
+SQL: SHOW COLUMNS FROM `zx_type` [ RunTime:0.001590s ]
+SQL: SELECT * FROM zx_type WHERE parent='活动动态' [ RunTime:0.000207s ]
+SQL: SELECT * FROM zx_article WHERE  type='活动动态'  OR type='sdafdsfsdsada' AND status_0=1 ORDER BY id DESC LIMIT 0,6 [ RunTime:0.000279s ]
+SQL: SHOW COLUMNS FROM `zx_type` [ RunTime:0.001724s ]
+SQL: SELECT * FROM zx_type WHERE parent='知行干货' [ RunTime:0.000237s ]
+SQL: SELECT * FROM zx_article WHERE  type='知行干货'  OR type='ganhuo1' AND status_0=1 ORDER BY id DESC LIMIT 0,7 [ RunTime:0.000324s ]
+SQL: SELECT * FROM zx_slideshow WHERE sort!=0 ORDER BY sort [ RunTime:0.000224s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000088s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000179s ]
+NOTIC: [8] Undefined variable: allCss C:\wamp\www\zhixing\Application\Runtime\Cache\Home\7b77775f00e57a9d8807c87feb3333f0.php 第 7 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp\www\zhixing\Application\Runtime\Cache\Home\7b77775f00e57a9d8807c87feb3333f0.php 第 7 行.
+NOTIC: [8] Undefined variable: allJs C:\wamp\www\zhixing\Application\Runtime\Cache\Home\7b77775f00e57a9d8807c87feb3333f0.php 第 12 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp\www\zhixing\Application\Runtime\Cache\Home\7b77775f00e57a9d8807c87feb3333f0.php 第 12 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010022s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010108s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000227s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000301s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000461s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000538s ]
+
+[ 2014-10-10T09:48:07+08:00 ] 127.0.0.1 /zhixing/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000387s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000473s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000556s ]
+SQL: SHOW COLUMNS FROM `zx_article` [ RunTime:0.001644s ]
+SQL: SHOW COLUMNS FROM `zx_slide_show` [ RunTime:0.001296s ]
+ERR: 1146:Table 'zhixing.zx_slide_show' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `zx_slide_show`
+SQL: SHOW COLUMNS FROM `zx_type` [ RunTime:0.002757s ]
+SQL: SELECT * FROM zx_type WHERE parent='招聘信息' [ RunTime:0.000770s ]
+SQL: SELECT * FROM zx_article WHERE  type='招聘信息'  OR type='招聘测试1' OR type='大大声' AND status_0=1 ORDER BY id DESC LIMIT 0,6 [ RunTime:0.000322s ]
+SQL: SHOW COLUMNS FROM `zx_type` [ RunTime:0.001635s ]
+SQL: SELECT * FROM zx_type WHERE parent='活动动态' [ RunTime:0.000313s ]
+SQL: SELECT * FROM zx_article WHERE  type='活动动态'  OR type='sdafdsfsdsada' AND status_0=1 ORDER BY id DESC LIMIT 0,6 [ RunTime:0.000369s ]
+SQL: SHOW COLUMNS FROM `zx_type` [ RunTime:0.001559s ]
+SQL: SELECT * FROM zx_type WHERE parent='知行干货' [ RunTime:0.000241s ]
+SQL: SELECT * FROM zx_article WHERE  type='知行干货'  OR type='ganhuo1' AND status_0=1 ORDER BY id DESC LIMIT 0,7 [ RunTime:0.000268s ]
+SQL: SELECT * FROM zx_slideshow WHERE sort!=0 ORDER BY sort [ RunTime:0.000356s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000093s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000193s ]
+NOTIC: [8] Undefined variable: allCss C:\wamp\www\zhixing\Application\Runtime\Cache\Home\7b77775f00e57a9d8807c87feb3333f0.php 第 7 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp\www\zhixing\Application\Runtime\Cache\Home\7b77775f00e57a9d8807c87feb3333f0.php 第 7 行.
+NOTIC: [8] Undefined variable: allJs C:\wamp\www\zhixing\Application\Runtime\Cache\Home\7b77775f00e57a9d8807c87feb3333f0.php 第 12 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp\www\zhixing\Application\Runtime\Cache\Home\7b77775f00e57a9d8807c87feb3333f0.php 第 12 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011582s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011691s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000218s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000288s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000452s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000529s ]
+
+[ 2014-10-10T09:53:54+08:00 ] 127.0.0.1 /zhixing/index.php/Home/Article/index/type/%E6%8B%9B%E8%81%98%E4%BF%A1%E6%81%AF.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000513s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000604s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000692s ]
+SQL: SHOW COLUMNS FROM `zx_article` [ RunTime:0.001734s ]
+SQL: SHOW COLUMNS FROM `zx_type` [ RunTime:0.001496s ]
+SQL: SELECT * FROM zx_type WHERE parent='招聘信息' [ RunTime:0.000236s ]
+SQL: SELECT * FROM zx_type WHERE name='招聘信息' [ RunTime:0.000158s ]
+NOTIC: [8] Array to string conversion C:\wamp\www\zhixing\Application\Home\Controller\ArticleController.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `zx_article` [ RunTime:0.005618s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zx_article` WHERE ( type='Array' AND status_0=1 ) LIMIT 1   [ RunTime:0.000326s ]
+SQL: SELECT * FROM `zx_article` WHERE ( type='Array' AND status_0=1 ) ORDER BY id DESC LIMIT 0,8   [ RunTime:0.000673s ]
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp\www\zhixing\Application\Home\Controller\ArticleController.class.php 第 19 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000069s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000181s ]
+NOTIC: [8] Undefined variable: allCss C:\wamp\www\zhixing\Application\Runtime\Cache\Home\898face22148efbe3b0369620bf59ccd.php 第 8 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp\www\zhixing\Application\Runtime\Cache\Home\898face22148efbe3b0369620bf59ccd.php 第 8 行.
+NOTIC: [8] Undefined variable: allJs C:\wamp\www\zhixing\Application\Runtime\Cache\Home\898face22148efbe3b0369620bf59ccd.php 第 13 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp\www\zhixing\Application\Runtime\Cache\Home\898face22148efbe3b0369620bf59ccd.php 第 13 行.
+NOTIC: [8] Undefined variable: download C:\wamp\www\zhixing\Application\Runtime\Cache\Home\898face22148efbe3b0369620bf59ccd.php 第 46 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp\www\zhixing\Application\Runtime\Cache\Home\898face22148efbe3b0369620bf59ccd.php 第 54 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008865s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008954s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000355s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000428s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000652s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000741s ]
+
+[ 2014-10-10T09:53:55+08:00 ] 127.0.0.1 /zhixing/index.php/Home/Article/index/type/%E6%B4%BB%E5%8A%A8%E5%8A%A8%E6%80%81.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000928s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000822s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001038s ]
+SQL: SHOW COLUMNS FROM `zx_article` [ RunTime:0.001753s ]
+SQL: SHOW COLUMNS FROM `zx_type` [ RunTime:0.002465s ]
+SQL: SELECT * FROM zx_type WHERE parent='活动动态' [ RunTime:0.000251s ]
+SQL: SELECT * FROM zx_type WHERE name='活动动态' [ RunTime:0.000173s ]
+NOTIC: [8] Array to string conversion C:\wamp\www\zhixing\Application\Home\Controller\ArticleController.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `zx_article` [ RunTime:0.001963s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zx_article` WHERE ( type='Array' AND status_0=1 ) LIMIT 1   [ RunTime:0.000285s ]
+SQL: SELECT * FROM `zx_article` WHERE ( type='Array' AND status_0=1 ) ORDER BY id DESC LIMIT 0,8   [ RunTime:0.000390s ]
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp\www\zhixing\Application\Home\Controller\ArticleController.class.php 第 19 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000074s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000179s ]
+NOTIC: [8] Undefined variable: allCss C:\wamp\www\zhixing\Application\Runtime\Cache\Home\898face22148efbe3b0369620bf59ccd.php 第 8 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp\www\zhixing\Application\Runtime\Cache\Home\898face22148efbe3b0369620bf59ccd.php 第 8 行.
+NOTIC: [8] Undefined variable: allJs C:\wamp\www\zhixing\Application\Runtime\Cache\Home\898face22148efbe3b0369620bf59ccd.php 第 13 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp\www\zhixing\Application\Runtime\Cache\Home\898face22148efbe3b0369620bf59ccd.php 第 13 行.
+NOTIC: [8] Undefined variable: download C:\wamp\www\zhixing\Application\Runtime\Cache\Home\898face22148efbe3b0369620bf59ccd.php 第 46 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp\www\zhixing\Application\Runtime\Cache\Home\898face22148efbe3b0369620bf59ccd.php 第 54 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008929s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009103s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000314s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000390s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000605s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000692s ]
+
+[ 2014-10-10T09:53:57+08:00 ] 127.0.0.1 /zhixing/index.php/Home/Article/index/type/%E6%8B%9B%E8%81%98%E4%BF%A1%E6%81%AF.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000376s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000529s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000617s ]
+SQL: SHOW COLUMNS FROM `zx_article` [ RunTime:0.003771s ]
+SQL: SHOW COLUMNS FROM `zx_type` [ RunTime:0.001921s ]
+SQL: SELECT * FROM zx_type WHERE parent='招聘信息' [ RunTime:0.000545s ]
+SQL: SELECT * FROM zx_type WHERE name='招聘信息' [ RunTime:0.000408s ]
+NOTIC: [8] Array to string conversion C:\wamp\www\zhixing\Application\Home\Controller\ArticleController.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `zx_article` [ RunTime:0.002176s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zx_article` WHERE ( type='Array' AND status_0=1 ) LIMIT 1   [ RunTime:0.000367s ]
+SQL: SELECT * FROM `zx_article` WHERE ( type='Array' AND status_0=1 ) ORDER BY id DESC LIMIT 0,8   [ RunTime:0.000458s ]
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp\www\zhixing\Application\Home\Controller\ArticleController.class.php 第 19 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000075s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000182s ]
+NOTIC: [8] Undefined variable: allCss C:\wamp\www\zhixing\Application\Runtime\Cache\Home\898face22148efbe3b0369620bf59ccd.php 第 8 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp\www\zhixing\Application\Runtime\Cache\Home\898face22148efbe3b0369620bf59ccd.php 第 8 行.
+NOTIC: [8] Undefined variable: allJs C:\wamp\www\zhixing\Application\Runtime\Cache\Home\898face22148efbe3b0369620bf59ccd.php 第 13 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp\www\zhixing\Application\Runtime\Cache\Home\898face22148efbe3b0369620bf59ccd.php 第 13 行.
+NOTIC: [8] Undefined variable: download C:\wamp\www\zhixing\Application\Runtime\Cache\Home\898face22148efbe3b0369620bf59ccd.php 第 46 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp\www\zhixing\Application\Runtime\Cache\Home\898face22148efbe3b0369620bf59ccd.php 第 54 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007807s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007910s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000490s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000604s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000905s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001031s ]
+
+[ 2014-10-10T09:53:57+08:00 ] 127.0.0.1 /zhixing/index.php/Home/Article/index/type/%E6%8B%9B%E8%81%98%E6%B5%8B%E8%AF%951.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000411s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000954s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001161s ]
+SQL: SHOW COLUMNS FROM `zx_article` [ RunTime:0.003315s ]
+SQL: SHOW COLUMNS FROM `zx_type` [ RunTime:0.001491s ]
+SQL: SELECT * FROM zx_type WHERE parent='招聘测试1' [ RunTime:0.000208s ]
+SQL: SELECT * FROM zx_type WHERE name='招聘测试1' [ RunTime:0.000760s ]
+SQL: SHOW COLUMNS FROM `zx_article` [ RunTime:0.002005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zx_article` WHERE ( type='招聘测试1' AND status_0=1 ) LIMIT 1   [ RunTime:0.000371s ]
+SQL: SELECT * FROM `zx_article` WHERE ( type='招聘测试1' AND status_0=1 ) ORDER BY id DESC LIMIT 0,8   [ RunTime:0.000362s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000083s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000189s ]
+NOTIC: [8] Undefined variable: allCss C:\wamp\www\zhixing\Application\Runtime\Cache\Home\898face22148efbe3b0369620bf59ccd.php 第 8 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp\www\zhixing\Application\Runtime\Cache\Home\898face22148efbe3b0369620bf59ccd.php 第 8 行.
+NOTIC: [8] Undefined variable: allJs C:\wamp\www\zhixing\Application\Runtime\Cache\Home\898face22148efbe3b0369620bf59ccd.php 第 13 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp\www\zhixing\Application\Runtime\Cache\Home\898face22148efbe3b0369620bf59ccd.php 第 13 行.
+NOTIC: [8] Undefined variable: download C:\wamp\www\zhixing\Application\Runtime\Cache\Home\898face22148efbe3b0369620bf59ccd.php 第 46 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008322s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008411s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000301s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000380s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000498s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000585s ]
+
+[ 2014-10-10T09:56:18+08:00 ] 127.0.0.1 /zhixing/index.php/Home/Article/index/type/%E6%8B%9B%E8%81%98%E4%BF%A1%E6%81%AF.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000453s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000571s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000653s ]
+SQL: SHOW COLUMNS FROM `zx_article` [ RunTime:0.001752s ]
+SQL: SHOW COLUMNS FROM `zx_type` [ RunTime:0.001480s ]
+SQL: SELECT * FROM zx_type WHERE parent='招聘信息' [ RunTime:0.000253s ]
+SQL: SELECT * FROM zx_type WHERE name='招聘信息' [ RunTime:0.000189s ]
+NOTIC: [8] Array to string conversion C:\wamp\www\zhixing\Application\Home\Controller\ArticleController.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `zx_article` [ RunTime:0.001577s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zx_article` WHERE ( type='Array' AND status_0=1 ) LIMIT 1   [ RunTime:0.000296s ]
+SQL: SELECT * FROM `zx_article` WHERE ( type='Array' AND status_0=1 ) ORDER BY id DESC LIMIT 0,8   [ RunTime:0.000452s ]
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp\www\zhixing\Application\Home\Controller\ArticleController.class.php 第 19 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000076s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000186s ]
+NOTIC: [8] Undefined variable: allCss C:\wamp\www\zhixing\Application\Runtime\Cache\Home\898face22148efbe3b0369620bf59ccd.php 第 8 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp\www\zhixing\Application\Runtime\Cache\Home\898face22148efbe3b0369620bf59ccd.php 第 8 行.
+NOTIC: [8] Undefined variable: allJs C:\wamp\www\zhixing\Application\Runtime\Cache\Home\898face22148efbe3b0369620bf59ccd.php 第 13 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp\www\zhixing\Application\Runtime\Cache\Home\898face22148efbe3b0369620bf59ccd.php 第 13 行.
+NOTIC: [8] Undefined variable: download C:\wamp\www\zhixing\Application\Runtime\Cache\Home\898face22148efbe3b0369620bf59ccd.php 第 46 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp\www\zhixing\Application\Runtime\Cache\Home\898face22148efbe3b0369620bf59ccd.php 第 54 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008818s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008944s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000321s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000393s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000545s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000628s ]
+
+[ 2014-10-10T09:56:21+08:00 ] 127.0.0.1 /zhixing/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000406s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000565s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000666s ]
+SQL: SHOW COLUMNS FROM `zx_article` [ RunTime:0.001618s ]
+SQL: SHOW COLUMNS FROM `zx_slide_show` [ RunTime:0.001340s ]
+ERR: 1146:Table 'zhixing.zx_slide_show' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `zx_slide_show`
+SQL: SHOW COLUMNS FROM `zx_type` [ RunTime:0.001418s ]
+SQL: SELECT * FROM zx_type WHERE parent='招聘信息' [ RunTime:0.000230s ]
+SQL: SELECT * FROM zx_article WHERE  type='招聘信息'  OR type='招聘测试1' OR type='大大声' AND status_0=1 ORDER BY id DESC LIMIT 0,6 [ RunTime:0.000260s ]
+SQL: SHOW COLUMNS FROM `zx_type` [ RunTime:0.001550s ]
+SQL: SELECT * FROM zx_type WHERE parent='活动动态' [ RunTime:0.000315s ]
+SQL: SELECT * FROM zx_article WHERE  type='活动动态'  OR type='sdafdsfsdsada' AND status_0=1 ORDER BY id DESC LIMIT 0,6 [ RunTime:0.000351s ]
+SQL: SHOW COLUMNS FROM `zx_type` [ RunTime:0.001563s ]
+SQL: SELECT * FROM zx_type WHERE parent='知行干货' [ RunTime:0.000282s ]
+SQL: SELECT * FROM zx_article WHERE  type='知行干货'  OR type='ganhuo1' AND status_0=1 ORDER BY id DESC LIMIT 0,7 [ RunTime:0.000364s ]
+SQL: SELECT * FROM zx_slideshow WHERE sort!=0 ORDER BY sort [ RunTime:0.000262s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000118s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000236s ]
+NOTIC: [8] Undefined variable: allCss C:\wamp\www\zhixing\Application\Runtime\Cache\Home\7b77775f00e57a9d8807c87feb3333f0.php 第 7 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp\www\zhixing\Application\Runtime\Cache\Home\7b77775f00e57a9d8807c87feb3333f0.php 第 7 行.
+NOTIC: [8] Undefined variable: allJs C:\wamp\www\zhixing\Application\Runtime\Cache\Home\7b77775f00e57a9d8807c87feb3333f0.php 第 12 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp\www\zhixing\Application\Runtime\Cache\Home\7b77775f00e57a9d8807c87feb3333f0.php 第 12 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010179s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010261s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000287s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000360s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000446s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000537s ]
+
+[ 2014-10-10T09:56:28+08:00 ] 127.0.0.1 /zhixing/index.php/Home/Article/index/type/%E6%8B%9B%E8%81%98%E4%BF%A1%E6%81%AF.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000503s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000508s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000601s ]
+SQL: SHOW COLUMNS FROM `zx_article` [ RunTime:0.001679s ]
+SQL: SHOW COLUMNS FROM `zx_type` [ RunTime:0.001802s ]
+SQL: SELECT * FROM zx_type WHERE parent='招聘信息' [ RunTime:0.000279s ]
+SQL: SELECT * FROM zx_type WHERE name='招聘信息' [ RunTime:0.000226s ]
+NOTIC: [8] Array to string conversion C:\wamp\www\zhixing\Application\Home\Controller\ArticleController.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `zx_article` [ RunTime:0.001713s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zx_article` WHERE ( type='Array' AND status_0=1 ) LIMIT 1   [ RunTime:0.000313s ]
+SQL: SELECT * FROM `zx_article` WHERE ( type='Array' AND status_0=1 ) ORDER BY id DESC LIMIT 0,8   [ RunTime:0.000438s ]
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp\www\zhixing\Application\Home\Controller\ArticleController.class.php 第 19 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000068s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000165s ]
+NOTIC: [8] Undefined variable: allCss C:\wamp\www\zhixing\Application\Runtime\Cache\Home\898face22148efbe3b0369620bf59ccd.php 第 8 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp\www\zhixing\Application\Runtime\Cache\Home\898face22148efbe3b0369620bf59ccd.php 第 8 行.
+NOTIC: [8] Undefined variable: allJs C:\wamp\www\zhixing\Application\Runtime\Cache\Home\898face22148efbe3b0369620bf59ccd.php 第 13 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp\www\zhixing\Application\Runtime\Cache\Home\898face22148efbe3b0369620bf59ccd.php 第 13 行.
+NOTIC: [8] Undefined variable: download C:\wamp\www\zhixing\Application\Runtime\Cache\Home\898face22148efbe3b0369620bf59ccd.php 第 46 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp\www\zhixing\Application\Runtime\Cache\Home\898face22148efbe3b0369620bf59ccd.php 第 54 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007839s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007917s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000313s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000381s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000561s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000640s ]
+
+[ 2014-10-10T09:56:30+08:00 ] 127.0.0.1 /zhixing/index.php/Home/Article/index/type/%E6%B4%BB%E5%8A%A8%E5%8A%A8%E6%80%81.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000458s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000547s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000630s ]
+SQL: SHOW COLUMNS FROM `zx_article` [ RunTime:0.001670s ]
+SQL: SHOW COLUMNS FROM `zx_type` [ RunTime:0.001698s ]
+SQL: SELECT * FROM zx_type WHERE parent='活动动态' [ RunTime:0.000247s ]
+SQL: SELECT * FROM zx_type WHERE name='活动动态' [ RunTime:0.000196s ]
+NOTIC: [8] Array to string conversion C:\wamp\www\zhixing\Application\Home\Controller\ArticleController.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `zx_article` [ RunTime:0.001553s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zx_article` WHERE ( type='Array' AND status_0=1 ) LIMIT 1   [ RunTime:0.000279s ]
+SQL: SELECT * FROM `zx_article` WHERE ( type='Array' AND status_0=1 ) ORDER BY id DESC LIMIT 0,8   [ RunTime:0.000427s ]
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp\www\zhixing\Application\Home\Controller\ArticleController.class.php 第 19 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000162s ]
+NOTIC: [8] Undefined variable: allCss C:\wamp\www\zhixing\Application\Runtime\Cache\Home\898face22148efbe3b0369620bf59ccd.php 第 8 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp\www\zhixing\Application\Runtime\Cache\Home\898face22148efbe3b0369620bf59ccd.php 第 8 行.
+NOTIC: [8] Undefined variable: allJs C:\wamp\www\zhixing\Application\Runtime\Cache\Home\898face22148efbe3b0369620bf59ccd.php 第 13 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp\www\zhixing\Application\Runtime\Cache\Home\898face22148efbe3b0369620bf59ccd.php 第 13 行.
+NOTIC: [8] Undefined variable: download C:\wamp\www\zhixing\Application\Runtime\Cache\Home\898face22148efbe3b0369620bf59ccd.php 第 46 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp\www\zhixing\Application\Runtime\Cache\Home\898face22148efbe3b0369620bf59ccd.php 第 54 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008029s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008172s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000633s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000830s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001027s ]
+
+[ 2014-10-10T09:57:46+08:00 ] 127.0.0.1 /zhixing/index.php/Home/Article/index/type/sdafdsfsdsada.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000597s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000739s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000885s ]
+SQL: SHOW COLUMNS FROM `zx_article` [ RunTime:0.002320s ]
+SQL: SHOW COLUMNS FROM `zx_type` [ RunTime:0.002122s ]
+SQL: SELECT * FROM zx_type WHERE parent='sdafdsfsdsada' [ RunTime:0.000260s ]
+SQL: SELECT * FROM zx_type WHERE name='sdafdsfsdsada' [ RunTime:0.000215s ]
+SQL: SHOW COLUMNS FROM `zx_article` [ RunTime:0.002268s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zx_article` WHERE ( type='sdafdsfsdsada' AND status_0=1 ) LIMIT 1   [ RunTime:0.000367s ]
+SQL: SELECT * FROM `zx_article` WHERE ( type='sdafdsfsdsada' AND status_0=1 ) ORDER BY id DESC LIMIT 0,8   [ RunTime:0.000555s ]
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp\www\zhixing\Application\Home\Controller\ArticleController.class.php 第 19 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000074s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000186s ]
+NOTIC: [8] Undefined variable: allCss C:\wamp\www\zhixing\Application\Runtime\Cache\Home\898face22148efbe3b0369620bf59ccd.php 第 8 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp\www\zhixing\Application\Runtime\Cache\Home\898face22148efbe3b0369620bf59ccd.php 第 8 行.
+NOTIC: [8] Undefined variable: allJs C:\wamp\www\zhixing\Application\Runtime\Cache\Home\898face22148efbe3b0369620bf59ccd.php 第 13 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp\www\zhixing\Application\Runtime\Cache\Home\898face22148efbe3b0369620bf59ccd.php 第 13 行.
+NOTIC: [8] Undefined variable: download C:\wamp\www\zhixing\Application\Runtime\Cache\Home\898face22148efbe3b0369620bf59ccd.php 第 46 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp\www\zhixing\Application\Runtime\Cache\Home\898face22148efbe3b0369620bf59ccd.php 第 54 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008419s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008515s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000328s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000401s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000504s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000583s ]
+
+[ 2014-10-10T09:57:50+08:00 ] 127.0.0.1 /zhixing/index.php/Home/Article/index/type/%E6%8B%9B%E8%81%98%E4%BF%A1%E6%81%AF.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000499s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000645s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000762s ]
+SQL: SHOW COLUMNS FROM `zx_article` [ RunTime:0.001630s ]
+SQL: SHOW COLUMNS FROM `zx_type` [ RunTime:0.001512s ]
+SQL: SELECT * FROM zx_type WHERE parent='招聘信息' [ RunTime:0.000326s ]
+SQL: SELECT * FROM zx_type WHERE name='招聘信息' [ RunTime:0.000233s ]
+NOTIC: [8] Array to string conversion C:\wamp\www\zhixing\Application\Home\Controller\ArticleController.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `zx_article` [ RunTime:0.001706s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zx_article` WHERE ( type='Array' AND status_0=1 ) LIMIT 1   [ RunTime:0.000345s ]
+SQL: SELECT * FROM `zx_article` WHERE ( type='Array' AND status_0=1 ) ORDER BY id DESC LIMIT 0,8   [ RunTime:0.000458s ]
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp\www\zhixing\Application\Home\Controller\ArticleController.class.php 第 19 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000077s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000181s ]
+NOTIC: [8] Undefined variable: allCss C:\wamp\www\zhixing\Application\Runtime\Cache\Home\898face22148efbe3b0369620bf59ccd.php 第 8 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp\www\zhixing\Application\Runtime\Cache\Home\898face22148efbe3b0369620bf59ccd.php 第 8 行.
+NOTIC: [8] Undefined variable: allJs C:\wamp\www\zhixing\Application\Runtime\Cache\Home\898face22148efbe3b0369620bf59ccd.php 第 13 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp\www\zhixing\Application\Runtime\Cache\Home\898face22148efbe3b0369620bf59ccd.php 第 13 行.
+NOTIC: [8] Undefined variable: download C:\wamp\www\zhixing\Application\Runtime\Cache\Home\898face22148efbe3b0369620bf59ccd.php 第 46 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp\www\zhixing\Application\Runtime\Cache\Home\898face22148efbe3b0369620bf59ccd.php 第 54 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011843s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011955s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000304s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000375s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000560s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000640s ]
+
+[ 2014-10-10T09:57:52+08:00 ] 127.0.0.1 /zhixing/index.php/Home/Article/index/type/%E6%8B%9B%E8%81%98%E6%B5%8B%E8%AF%951.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000406s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000603s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000713s ]
+SQL: SHOW COLUMNS FROM `zx_article` [ RunTime:0.001685s ]
+SQL: SHOW COLUMNS FROM `zx_type` [ RunTime:0.001787s ]
+SQL: SELECT * FROM zx_type WHERE parent='招聘测试1' [ RunTime:0.000325s ]
+SQL: SELECT * FROM zx_type WHERE name='招聘测试1' [ RunTime:0.000258s ]
+SQL: SHOW COLUMNS FROM `zx_article` [ RunTime:0.002310s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zx_article` WHERE ( type='招聘测试1' AND status_0=1 ) LIMIT 1   [ RunTime:0.001070s ]
+SQL: SELECT * FROM `zx_article` WHERE ( type='招聘测试1' AND status_0=1 ) ORDER BY id DESC LIMIT 0,8   [ RunTime:0.000636s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000147s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000347s ]
+NOTIC: [8] Undefined variable: allCss C:\wamp\www\zhixing\Application\Runtime\Cache\Home\898face22148efbe3b0369620bf59ccd.php 第 8 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp\www\zhixing\Application\Runtime\Cache\Home\898face22148efbe3b0369620bf59ccd.php 第 8 行.
+NOTIC: [8] Undefined variable: allJs C:\wamp\www\zhixing\Application\Runtime\Cache\Home\898face22148efbe3b0369620bf59ccd.php 第 13 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp\www\zhixing\Application\Runtime\Cache\Home\898face22148efbe3b0369620bf59ccd.php 第 13 行.
+NOTIC: [8] Undefined variable: download C:\wamp\www\zhixing\Application\Runtime\Cache\Home\898face22148efbe3b0369620bf59ccd.php 第 46 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008881s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009008s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000434s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000539s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000640s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000735s ]
+
+[ 2014-10-10T09:57:54+08:00 ] 127.0.0.1 /zhixing/index.php/Home/Article/index/type/%E6%8B%9B%E8%81%98%E4%BF%A1%E6%81%AF.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000600s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001135s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002296s ]
+SQL: SHOW COLUMNS FROM `zx_article` [ RunTime:0.001702s ]
+SQL: SHOW COLUMNS FROM `zx_type` [ RunTime:0.001567s ]
+SQL: SELECT * FROM zx_type WHERE parent='招聘信息' [ RunTime:0.003158s ]
+SQL: SELECT * FROM zx_type WHERE name='招聘信息' [ RunTime:0.000544s ]
+NOTIC: [8] Array to string conversion C:\wamp\www\zhixing\Application\Home\Controller\ArticleController.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `zx_article` [ RunTime:0.001678s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zx_article` WHERE ( type='Array' AND status_0=1 ) LIMIT 1   [ RunTime:0.000285s ]
+SQL: SELECT * FROM `zx_article` WHERE ( type='Array' AND status_0=1 ) ORDER BY id DESC LIMIT 0,8   [ RunTime:0.000421s ]
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp\www\zhixing\Application\Home\Controller\ArticleController.class.php 第 19 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000069s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000167s ]
+NOTIC: [8] Undefined variable: allCss C:\wamp\www\zhixing\Application\Runtime\Cache\Home\898face22148efbe3b0369620bf59ccd.php 第 8 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp\www\zhixing\Application\Runtime\Cache\Home\898face22148efbe3b0369620bf59ccd.php 第 8 行.
+NOTIC: [8] Undefined variable: allJs C:\wamp\www\zhixing\Application\Runtime\Cache\Home\898face22148efbe3b0369620bf59ccd.php 第 13 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp\www\zhixing\Application\Runtime\Cache\Home\898face22148efbe3b0369620bf59ccd.php 第 13 行.
+NOTIC: [8] Undefined variable: download C:\wamp\www\zhixing\Application\Runtime\Cache\Home\898face22148efbe3b0369620bf59ccd.php 第 46 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp\www\zhixing\Application\Runtime\Cache\Home\898face22148efbe3b0369620bf59ccd.php 第 54 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008090s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000368s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000456s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000541s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000624s ]
+

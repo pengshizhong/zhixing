@@ -10,7 +10,7 @@
 // +----------------------------------------------------------------------
 namespace Think;
 
-class Page{
+ class Page{
     public $firstRow; // 起始行数
     public $listRows; // 列表每页显示行数
     public $parameter; // 分页跳转时要带的参数
@@ -26,11 +26,11 @@ class Page{
 	// 分页显示定制
     private $config  = array(
         'header' => '<span class="rows">共 %TOTAL_ROW% 条记录</span>',
-        'prev'   => '<<',
-        'next'   => '>>',
+        'prev'   => '<span>上一页</span>',
+        'next'   => '<span>下一页</span>',
         'first'  => '1...',
         'last'   => '...%TOTAL_PAGE%',
-        'theme'  => '%FIRST% %UP_PAGE% %LINK_PAGE% %DOWN_PAGE% %END%',
+        'theme'  => '%FIRST% %UP_PAGE%  %INPUT_PAGE% %DOWN_PAGE% %END%',
     );
 
     /**
@@ -69,11 +69,11 @@ class Page{
     private function url($page){
         return str_replace(urlencode('[PAGE]'), $page, $this->url);
     }
-
     /**
      * 组装分页链接
      * @return string
      */
+   
     public function show() {
         if(0 == $this->totalRows) return '';
 
@@ -134,11 +134,18 @@ class Page{
                 }
             }
         }
+        //页数输入框
+        $input_page = "<input id='pageTurn' value='" . $this->nowPage . "' /><span>/</span><span id='pageNum'>"
+                      . $this->totalPages
+                      . '</span><button class="jumpto">跳转</button>';
+
+        //获取当前页
+       
 
         //替换分页内容
         $page_str = str_replace(
-            array('%HEADER%', '%NOW_PAGE%', '%UP_PAGE%', '%DOWN_PAGE%', '%FIRST%', '%LINK_PAGE%', '%END%', '%TOTAL_ROW%', '%TOTAL_PAGE%'),
-            array($this->config['header'], $this->nowPage, $up_page, $down_page, $the_first, $link_page, $the_end, $this->totalRows, $this->totalPages),
+            array('%HEADER%', '%NOW_PAGE%', '%UP_PAGE%', '%INPUT_PAGE%','%DOWN_PAGE%', '%FIRST%', '%END%', '%TOTAL_ROW%', '%TOTAL_PAGE%'),
+            array($this->config['header'], $this->nowPage, $up_page, $input_page,$down_page, $the_first, $the_end, $this->totalRows, $this->totalPages),
             $this->config['theme']);
         return "<div>{$page_str}</div>";
     }

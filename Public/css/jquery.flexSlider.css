@@ -1,0 +1,15 @@
+.dowebok { position: relative; width: 660px; height: 436px; margin: 0 auto; overflow: hidden;}
+.dowebok img { display: block; border: 0 none;}
+.dowebok ul, .dowebok ol { list-style-type: none;}
+.flex-viewport { z-index: 1;}
+.flex-control-nav { position: absolute; right: 110px; bottom: 10px; z-index: 2; width: 130px; text-align: right;}
+.flex-control-nav li { display: inline-block; *display: inline; zoom: 1;}
+.flex-control-nav a { float: left; width: 23px; height: 23px; line-height: 100px; overflow: hidden; background: url(images/dot1.png) 4px 4px no-repeat; cursor: pointer;}
+.flex-control-nav .flex-active { background: url(images/dot2.png) 3px 3px no-repeat;}
+.flex-direction-nav { position: absolute; z-index: 3; right: 0; bottom: 0; width: 100px; height: 50px;}
+.flex-direction-nav li { float: left;}
+.flex-direction-nav a { float: left; width: 50px; height: 50px; text-indent: -9999px; overflow: hidden;}
+.flex-prev { background: #fff url(images/arrow.png) 0 0 no-repeat;}
+.flex-prev:hover { background-position: 0 -50px;}
+.flex-next { background: #fff url(images/arrow.png) right 0 no-repeat;}
+.flex-next:hover { background-position: -50px -50px;}

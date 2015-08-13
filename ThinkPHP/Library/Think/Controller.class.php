@@ -33,6 +33,7 @@ abstract class Controller {
      * @access public
      */
     public function __construct() {
+        header('Content-Type: text/html; charset=utf-8');
         Hook::listen('action_begin',$this->config);
         //实例化视图类
         $this->view     = Think::instance('Think\View');
@@ -242,6 +243,7 @@ abstract class Controller {
      * @return void
      */
     protected function redirect($url,$params=array(),$delay=0,$msg='') {
+        header('Content-Type: text/html; charset=utf-8');
         $url    =   U($url,$params);
         redirect($url,$delay,$msg);
     }
@@ -301,6 +303,29 @@ abstract class Controller {
         // 执行后续操作
         Hook::listen('action_end');
     }
+
+    public function echoUtf8($msg){
+        header('Content-Type: text/html; charset=utf-8');
+        echo $msg;
+    }
+    public function returnLastPage($message='权限不足'){
+        header('Content-Type: text/html; charset=utf-8');
+        echo '<script> alert("' . $message . '"); history.back();</script>';
+    }
+
+    public function noAdmin($isAjax=false){
+        if(!isAdmin()){
+            if(!$isAjax){
+                $this->returnLastPage();
+                exit();
+            }
+            else{
+                $this->echoUtf8("权限不足");
+                exit();
+            }
+        }
+    }
+
 }
 // 设置控制器别名 便于升级
 class_alias('Think\Controller','Think\Action');

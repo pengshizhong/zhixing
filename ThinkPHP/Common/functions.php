@@ -992,6 +992,7 @@ function is_ssl() {
  */
 function redirect($url, $time=0, $msg='') {
     //多行URL地址支持
+    header('Content-Type: text/html; charset=utf-8');
     $url        = str_replace(array("\n", "\r"), '', $url);
     if (empty($msg))
         $msg    = "系统将在{$time}秒之后自动跳转到{$url}！";
@@ -1455,3 +1456,27 @@ function filter_exp(&$value){
 function in_array_case($value,$array){
     return in_array(strtolower($value),array_map('strtolower',$array));
 }
+
+
+function isLogined(){
+        if(session('token')&&cookie('token')&&session('token')==cookie('token'))
+        {
+            return true;
+        }
+        else
+        {   
+            $url ="http://" . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'];
+            $url = urlencode($url);
+            redirect(C('BASE_HREF') . 'index.php/Admin/Login/index?url=' . $url, 0.1 , "<script>alert('身份验证已过期，请重新登陆')</script>");
+        }
+    }
+
+function isAdmin($num=''){
+    if(strcasecmp(session('userName'),'admin')==0){
+        return true;
+    }
+    else{
+        return false;
+    }
+}
+
